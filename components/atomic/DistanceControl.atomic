@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xcore:AtomicComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xcore="uk.xman.xcore" name="DistanceControl">
+  <services name="calculateDistanceFromSafetyDistance">
+    <parameters xsi:type="xcore:Output" name="distanceFromSafetyDistance" dataType="Float" order="1"/>
+    <parameters xsi:type="xcore:Input" name="clearance" dataType="Float" order="1"/>
+    <parameters xsi:type="xcore:Input" name="safetyDistance" dataType="Float" order="1"/>
+  </services>
+  <services name="decrementDistance">
+    <parameters xsi:type="xcore:Input" name="clearance" dataType="Float" order="1"/>
+    <parameters xsi:type="xcore:Input" name="distanceFromSafetyDistance" dataType="Float" order="1"/>
+  </services>
+  <services name="incrementDistance">
+    <parameters xsi:type="xcore:Input" name="clearance" dataType="Float" order="1"/>
+    <parameters xsi:type="xcore:Input" name="distanceFromSafetyDistance" dataType="Float" order="1"/>
+  </services>
+  <computationUnit interfaceCode="/*&#xA;&#x9;&#x9;* This is Java interface of the component DistanceControl&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public interface DistanceControl {public  Float  calculateDistanceFromSafetyDistance (&#xA;    &#x9;&#x9;Float clearance, &#xA;    &#x9;&#x9;    &#x9;&#x9;Float safetyDistance&#xA;    &#x9;&#x9; ); &#xA;public  void  decrementDistance (&#xA;    &#x9;&#x9;Float clearance, &#xA;    &#x9;&#x9;    &#x9;&#x9;Float distanceFromSafetyDistance&#xA;    &#x9;&#x9; ); &#xA;public  void  incrementDistance (&#xA;    &#x9;&#x9;Float clearance, &#xA;    &#x9;&#x9;    &#x9;&#x9;Float distanceFromSafetyDistance&#xA;    &#x9;&#x9; ); &#xA;}" sourceCode="/*&#xA;&#x9;&#x9;* This is Java implementation of the atomic component DistanceControl&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public class DistanceControlImpl implements DistanceControl {&#xA;/**&#xA; * Constructor of atomic component DistanceControl&#xA; */&#xA;public DistanceControlImpl() {&#xA;}public  Map&lt;String, Object>  distanceControl (&#xA; ) {&#xA;    &#x9;&#x9;&#x9;Map&lt;String, Object> returnValues = new HashMap&lt;String, Object>();&#xA;    &#x9;&#x9;&#x9;Float clearance = null;&#xA;    &#x9;&#x9;&#x9;returnValues.put(&quot;clearance&quot;, clearance);&#xA;    &#x9;&#x9;&#x9;Float distanceFromSafetyDistance = null;&#xA;    &#x9;&#x9;&#x9;returnValues.put(&quot;distanceFromSafetyDistance&quot;, distanceFromSafetyDistance);&#xA;    &#x9;&#x9;&#x9;// TODO: auto-generated code, to be implemented by developers&#xA;    &#x9;&#x9;&#x9;return returnValues;&#xA;    &#x9;&#x9;}}"/>
+</xcore:AtomicComponent>

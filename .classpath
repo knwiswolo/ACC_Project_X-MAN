@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="/System/Library/Java/Extensions/AppleScriptEngine.jar"/>
+	<classpathentry exported="true" kind="lib" path="/System/Library/Java/Extensions/dns_sd.jar"/>
+	<classpathentry exported="true" kind="lib" path="/System/Library/Java/Extensions/j3daudio.jar"/>
+	<classpathentry exported="true" kind="lib" path="/System/Library/Java/Extensions/j3dcore.jar"/>
+	<classpathentry exported="true" kind="lib" path="/System/Library/Java/Extensions/j3dutils.jar"/>
+	<classpathentry exported="true" kind="lib" path="/System/Library/Java/Extensions/jai_codec.jar"/>
+	<classpathentry exported="true" kind="lib" path="/System/Library/Java/Extensions/jai_core.jar"/>
+	<classpathentry exported="true" kind="lib" path="/System/Library/Java/Extensions/mlibwrapper_jai.jar"/>
+	<classpathentry exported="true" kind="lib" path="/System/Library/Java/Extensions/MRJToolkit.jar"/>
+	<classpathentry exported="true" kind="lib" path="/System/Library/Java/Extensions/vecmath.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="src-gen"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

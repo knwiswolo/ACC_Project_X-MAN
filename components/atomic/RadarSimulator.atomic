@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xcore:AtomicComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xcore="uk.xman.xcore" name="RadarSimulator">
+  <services name="radarSimulator">
+    <parameters xsi:type="xcore:Output" name="clearance" dataType="Float" order="1"/>
+  </services>
+  <computationUnit interfaceCode="/*&#xA;&#x9;&#x9;* This is Java interface of the component RadarSimulator&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public interface RadarSimulator {public  Float  radarSimulator (&#xA; ); &#xA;}" sourceCode="/*&#xA;&#x9;&#x9;* This is Java implementation of the atomic component RadarSimulator&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public class RadarSimulatorImpl implements RadarSimulator {&#xA;/**&#xA; * Constructor of atomic component RadarSimulator&#xA; */&#xA;public RadarSimulatorImpl() {&#xA;}public  Float  radarSimulator (&#xA; ) {&#xA;    &#x9;&#x9;&#x9;Float clearance = null;&#xA;    &#x9;&#x9;&#x9;// TODO: auto-generated code, to be implemented by developers&#xA;    &#x9;&#x9;&#x9;return clearance;&#xA;    &#x9;&#x9;}}"/>
+</xcore:AtomicComponent>

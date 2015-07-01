@@ -1,0 +1,1715 @@
+<?xml version="1.0" encoding="ASCII"?>
+<pi:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" visible="true" gridUnit="10" diagramTypeId="CompositeDesign" name="CompositeAccelerator" snapToGrid="true" pictogramLinks="//@link //@children.0/@link //@children.0/@children.0/@link //@children.0/@children.0/@children.0/@link //@children.0/@children.0/@children.1/@link //@children.0/@children.0/@children.1/@children.0/@link //@children.0/@children.0/@children.1/@children.0/@children.0/@link //@children.0/@children.0/@children.1/@children.0/@children.1/@link //@children.0/@children.0/@children.1/@children.0/@children.2/@link //@children.0/@children.0/@children.1/@children.0/@children.3/@link //@children.0/@children.0/@children.1/@children.0/@children.4/@link //@children.1/@link //@children.1/@children.0/@link //@children.1/@children.0/@children.0/@link //@children.1/@children.0/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@children.2/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@children.3/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@children.4/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@children.2/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@children.3/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@children.4/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@children.2/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@children.3/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@children.4/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.3/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.3/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.3/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.3/@children.2/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.3/@children.3/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.3/@children.4/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.4/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.4/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.4/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.4/@children.2/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.4/@children.3/@link //@connections.0/@link //@connections.0/@connectionDecorators.0/@link //@children.2/@link //@children.2/@children.0/@link //@children.2/@children.0/@children.0/@link //@children.2/@children.0/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@children.2/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@children.3/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@children.4/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@children.2/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@children.3/@link //@children.2/@children.0/@children.2/@link //@children.2/@children.0/@children.2/@children.0/@link //@children.2/@children.0/@children.2/@children.0/@children.0/@link //@children.2/@children.0/@children.2/@children.0/@children.1/@link //@children.2/@children.0/@children.2/@children.0/@children.1/@children.0/@link //@children.2/@children.0/@children.2/@children.0/@children.1/@children.0/@children.0/@link //@children.2/@children.0/@children.2/@children.0/@children.1/@children.0/@children.1/@link //@children.2/@children.0/@children.2/@children.0/@children.1/@children.0/@children.2/@link //@children.2/@children.0/@children.2/@children.0/@children.1/@children.0/@children.3/@link //@children.2/@children.0/@children.2/@children.0/@children.1/@children.0/@children.4/@link //@children.2/@children.0/@children.2/@children.0/@children.1/@children.1/@link //@children.2/@children.0/@children.2/@children.0/@children.1/@children.1/@children.0/@link //@children.2/@children.0/@children.2/@children.0/@children.1/@children.1/@children.1/@link //@children.2/@children.0/@children.2/@children.0/@children.1/@children.1/@children.2/@link //@children.2/@children.0/@children.2/@children.0/@children.1/@children.1/@children.3/@link //@children.3/@link //@children.3/@children.0/@link //@children.3/@children.0/@children.0/@link //@children.3/@children.0/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@children.2/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@children.3/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@children.4/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@children.2/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@children.3/@link //@children.3/@children.0/@children.2/@link //@children.3/@children.0/@children.2/@children.0/@link //@children.3/@children.0/@children.2/@children.0/@children.0/@link //@children.3/@children.0/@children.2/@children.0/@children.1/@link //@children.3/@children.0/@children.2/@children.0/@children.1/@children.0/@link //@children.3/@children.0/@children.2/@children.0/@children.1/@children.0/@children.0/@link //@children.3/@children.0/@children.2/@children.0/@children.1/@children.0/@children.1/@link //@children.3/@children.0/@children.2/@children.0/@children.1/@children.0/@children.2/@link //@children.3/@children.0/@children.2/@children.0/@children.1/@children.0/@children.3/@link //@children.3/@children.0/@children.2/@children.0/@children.1/@children.0/@children.4/@link //@children.3/@children.0/@children.2/@children.0/@children.1/@children.1/@link //@children.3/@children.0/@children.2/@children.0/@children.1/@children.1/@children.0/@link //@children.3/@children.0/@children.2/@children.0/@children.1/@children.1/@children.1/@link //@children.3/@children.0/@children.2/@children.0/@children.1/@children.1/@children.2/@link //@children.3/@children.0/@children.2/@children.0/@children.1/@children.1/@children.3/@link //@connections.1/@link //@connections.1/@connectionDecorators.0/@link //@connections.2/@link //@connections.2/@connectionDecorators.0/@link //@connections.3/@link //@connections.3/@connectionDecorators.0/@link //@connections.4/@link //@connections.4/@connectionDecorators.0/@link //@children.0/@children.0/@children.1/@children.1/@link //@children.0/@children.0/@children.1/@children.1/@children.0/@link //@children.0/@children.0/@children.1/@children.1/@children.1/@link //@children.0/@children.0/@children.1/@children.1/@children.2/@link //@children.0/@children.0/@children.1/@children.1/@children.3/@link //@children.0/@children.0/@children.1/@children.1/@children.4/@link" version="0.11.0">
+  <properties key="URI" value="platform:/resource/ACC_P/components/composite/CompositeAccelerator.composite#/"/>
+  <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.1" foreground="//@colors.0" lineWidth="1" filled="true" lineVisible="true" transparency="0.0" width="1000" height="1000"/>
+  <link>
+    <businessObjects href="CompositeAccelerator.composite#/"/>
+  </link>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="ID" value="SelectorShape.containerShape"/>
+    <properties key="L_TYPE" value="FIT"/>
+    <properties key="L_SPACING" value="0"/>
+    <properties key="L_MARGIN" value="0"/>
+    <properties key="L_FLEX" value="true"/>
+    <properties key="L_VIS" value="true"/>
+    <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+    <properties key="current-height-shape" value="132"/>
+    <properties key="current-width-shape" value="220"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="220" height="132" x="310" y="220" style="//@styles.0"/>
+    <link>
+      <businessObjects href="CompositeAccelerator.composite#//@composables.0"/>
+    </link>
+    <anchors xsi:type="pi:ChopboxAnchor"/>
+    <children xsi:type="pi:ContainerShape" visible="true">
+      <properties key="ID" value="SelectorShape.shape_1"/>
+      <properties key="L_MINW" value="151"/>
+      <properties key="L_MINH" value="81"/>
+      <properties key="L_H_STR" value="false"/>
+      <properties key="L_VIS" value="true"/>
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="152" height="132" style="//@styles.1">
+        <points x="109"/>
+        <points x="220" y="67"/>
+        <points x="109" y="132"/>
+        <points y="67"/>
+      </graphicsAlgorithm>
+      <link>
+        <businessObjects href="CompositeAccelerator.composite#//@composables.0"/>
+      </link>
+      <children visible="true">
+        <properties key="ID" value="SelectorShape.shape_2"/>
+        <properties key="L_MINW" value="10"/>
+        <properties key="L_MINH" value="10"/>
+        <properties key="L_H_STR" value="false"/>
+        <properties key="L_VIS" value="true"/>
+        <properties key="SHAPEDSL_TEXT_ID" value="selectorLabel"/>
+        <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="80" height="21" x="52" y="16" style="//@styles.2" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="selector...">
+          <properties key="SHAPEDSL_TEXT_ID" value="selectorLabel"/>
+        </graphicsAlgorithm>
+        <link>
+          <businessObjects href="CompositeAccelerator.composite#//@composables.0"/>
+        </link>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ID" value="SelectorShape.shape_3"/>
+        <properties key="IS_COMPARFTMENT" value="true"/>
+        <properties key="CAN_MOVE" value="false"/>
+        <properties key="SHAPEDSL_TEXT_ID" value="inputParameter"/>
+        <properties key="L_TYPE" value="FIXED"/>
+        <properties key="L_SPACING" value="0"/>
+        <properties key="L_MARGIN" value="0"/>
+        <properties key="L_FLEX" value="false"/>
+        <properties key="L_MINW" value="90"/>
+        <properties key="L_MINH" value="30"/>
+        <properties key="L_H_STR" value="false"/>
+        <properties key="L_VIS" value="true"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="133" height="49" x="48" y="41" style="//@styles.1"/>
+        <link>
+          <businessObjects href="CompositeAccelerator.composite#//@composables.0"/>
+        </link>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ID" value="InputShape.containerShape"/>
+          <properties key="L_H_STR" value="true"/>
+          <properties key="L_V_STR" value="true"/>
+          <properties key="L_FLEX" value="true"/>
+          <properties key="L_VIS" value="true"/>
+          <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+          <properties key="L_TYPE" value="TOP"/>
+          <properties key="L_SPACING" value="0"/>
+          <properties key="L_MARGIN" value="0"/>
+          <properties key="current-height-shape" value="15"/>
+          <properties key="current-width-shape" value="121"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="21" x="20" y="10" style="//@styles.0"/>
+          <link>
+            <businessObjects href="CompositeAccelerator.composite#//@composables.0/@input.0"/>
+          </link>
+          <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.0"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="ID" value="InputShape.invisibleShape"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.0/@input.0"/>
+            </link>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="ID" value="InputShape.shape_2"/>
+            <properties key="IS_COMPARFTMENT" value="false"/>
+            <properties key="CAN_MOVE" value="false"/>
+            <properties key="L_MINW" value="15"/>
+            <properties key="L_MINH" value="15"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.3" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.0/@input.0"/>
+            </link>
+          </children>
+          <children visible="true">
+            <properties key="ID" value="InputShape.shape_3"/>
+            <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" lineStyle="UNSPECIFIED" style="//@styles.0">
+              <points x="7" y="5"/>
+              <points x="7" y="12"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.0/@input.0"/>
+            </link>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="ID" value="InputShape.shape_4"/>
+            <properties key="IS_COMPARFTMENT" value="false"/>
+            <properties key="CAN_MOVE" value="false"/>
+            <properties key="L_MINW" value="2"/>
+            <properties key="L_MINH" value="2"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="2" height="2" x="7" y="3" style="//@styles.0"/>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.0/@input.0"/>
+            </link>
+          </children>
+          <children visible="true">
+            <properties key="ID" value="InputShape.shape_5"/>
+            <properties key="L_MINW" value="100"/>
+            <properties key="L_MINH" value="10"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="110" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="zone">
+              <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.0/@input.0"/>
+            </link>
+          </children>
+        </children>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ID" value="InputShape.containerShape"/>
+          <properties key="L_H_STR" value="true"/>
+          <properties key="L_V_STR" value="true"/>
+          <properties key="L_FLEX" value="true"/>
+          <properties key="L_VIS" value="true"/>
+          <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+          <properties key="L_TYPE" value="TOP"/>
+          <properties key="L_SPACING" value="0"/>
+          <properties key="L_MARGIN" value="0"/>
+          <properties key="current-height-shape" value="15"/>
+          <properties key="current-width-shape" value="121"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="21" x="20" y="39" style="//@styles.0"/>
+          <link>
+            <businessObjects href="CompositeAccelerator.composite#//@composables.0/@input.1"/>
+          </link>
+          <anchors xsi:type="pi:ChopboxAnchor"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="ID" value="InputShape.invisibleShape"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.0/@input.1"/>
+            </link>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="ID" value="InputShape.shape_2"/>
+            <properties key="IS_COMPARFTMENT" value="false"/>
+            <properties key="CAN_MOVE" value="false"/>
+            <properties key="L_MINW" value="15"/>
+            <properties key="L_MINH" value="15"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.3" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.0/@input.1"/>
+            </link>
+          </children>
+          <children visible="true">
+            <properties key="ID" value="InputShape.shape_3"/>
+            <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" lineStyle="UNSPECIFIED" style="//@styles.0">
+              <points x="7" y="5"/>
+              <points x="7" y="12"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.0/@input.1"/>
+            </link>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="ID" value="InputShape.shape_4"/>
+            <properties key="IS_COMPARFTMENT" value="false"/>
+            <properties key="CAN_MOVE" value="false"/>
+            <properties key="L_MINW" value="2"/>
+            <properties key="L_MINH" value="2"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="2" height="2" x="7" y="3" style="//@styles.0"/>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.0/@input.1"/>
+            </link>
+          </children>
+          <children visible="true">
+            <properties key="ID" value="InputShape.shape_5"/>
+            <properties key="L_MINW" value="100"/>
+            <properties key="L_MINH" value="10"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="110" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="currentSpeed">
+              <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.0/@input.1"/>
+            </link>
+          </children>
+        </children>
+      </children>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="ID" value="ComponentInstanceShape.containerShape"/>
+    <properties key="L_TYPE" value="FIT"/>
+    <properties key="L_SPACING" value="0"/>
+    <properties key="L_MARGIN" value="0"/>
+    <properties key="L_FLEX" value="true"/>
+    <properties key="L_VIS" value="true"/>
+    <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+    <properties key="current-height-shape" value="150"/>
+    <properties key="current-width-shape" value="200"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="194" x="326" style="//@styles.0"/>
+    <link>
+      <businessObjects href="CompositeAccelerator.composite#//@composables.1"/>
+    </link>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" relativeWidth="0.5">
+      <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.5" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" width="6" height="6" x="-3"/>
+    </anchors>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="ID" value="ComponentInstanceShape.shape_1"/>
+      <properties key="IS_COMPARFTMENT" value="true"/>
+      <properties key="CAN_MOVE" value="false"/>
+      <properties key="SHAPEDSL_TEXT_ID" value="selectedServicesHook"/>
+      <properties key="L_TYPE" value="VERTICAL"/>
+      <properties key="L_SPACING" value="10"/>
+      <properties key="L_MARGIN" value="0"/>
+      <properties key="L_FLEX" value="true"/>
+      <properties key="L_MINW" value="200"/>
+      <properties key="L_MINH" value="150"/>
+      <properties key="L_H_STR" value="false"/>
+      <properties key="L_VIS" value="true"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.6" foreground="//@colors.5" lineStyle="UNSPECIFIED" width="200" height="194" style="//@styles.3"/>
+      <link>
+        <businessObjects href="CompositeAccelerator.composite#//@composables.1"/>
+      </link>
+      <children visible="true">
+        <properties key="ID" value="ComponentInstanceShape.shape_2"/>
+        <properties key="L_MINW" value="120"/>
+        <properties key="L_MINH" value="10"/>
+        <properties key="L_H_STR" value="false"/>
+        <properties key="L_VIS" value="true"/>
+        <properties key="SHAPEDSL_TEXT_ID" value="componentInstanceNameLabel"/>
+        <properties key="current-height-shape" value="24"/>
+        <properties key="current-width-shape" value="200"/>
+        <graphicsAlgorithm xsi:type="al:Text" background="//@colors.5" foreground="//@colors.1" lineStyle="UNSPECIFIED" transparency="0.0" width="200" height="24" style="//@styles.3" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="zone_calculator">
+          <properties key="SHAPEDSL_TEXT_ID" value="componentInstanceNameLabel"/>
+        </graphicsAlgorithm>
+        <link>
+          <businessObjects href="CompositeAccelerator.composite#//@composables.1"/>
+        </link>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ID" value="ServiceShape.containerShape"/>
+        <properties key="L_H_STR" value="true"/>
+        <properties key="L_V_STR" value="false"/>
+        <properties key="L_TYPE" value="FIT"/>
+        <properties key="L_SPACING" value="0"/>
+        <properties key="L_MARGIN" value="0"/>
+        <properties key="L_FLEX" value="true"/>
+        <properties key="L_VIS" value="true"/>
+        <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+        <properties key="current-height-shape" value="150"/>
+        <properties key="current-width-shape" value="189"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="150" y="34" style="//@styles.0"/>
+        <link>
+          <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0"/>
+        </link>
+        <anchors xsi:type="pi:ChopboxAnchor"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <properties key="ID" value="ServiceShape.shape_1"/>
+          <properties key="L_MINW" value="180"/>
+          <properties key="L_MINH" value="150"/>
+          <properties key="L_H_STR" value="false"/>
+          <properties key="L_VIS" value="true"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="150" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
+          <link>
+            <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0"/>
+          </link>
+          <children visible="true">
+            <properties key="ID" value="ServiceShape.shape_2"/>
+            <properties key="L_MINW" value="140"/>
+            <properties key="L_MINH" value="10"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="5" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="calculateZone">
+              <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0"/>
+            </link>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true" active="true">
+            <properties key="ID" value="ServiceShape.shape_3"/>
+            <properties key="IS_COMPARFTMENT" value="true"/>
+            <properties key="CAN_MOVE" value="false"/>
+            <properties key="SHAPEDSL_TEXT_ID" value="serviceParameterAndReference"/>
+            <properties key="L_TYPE" value="VERTICAL"/>
+            <properties key="L_SPACING" value="0"/>
+            <properties key="L_MARGIN" value="8"/>
+            <properties key="L_FLEX" value="false"/>
+            <properties key="L_MINW" value="180"/>
+            <properties key="L_MINH" value="110"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="110" x="19" y="30" style="//@styles.0"/>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0"/>
+            </link>
+            <children xsi:type="pi:ContainerShape" visible="true" active="true">
+              <properties key="ID" value="InputShape.containerShape"/>
+              <properties key="L_H_STR" value="true"/>
+              <properties key="L_V_STR" value="true"/>
+              <properties key="L_FLEX" value="true"/>
+              <properties key="L_VIS" value="true"/>
+              <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+              <properties key="L_TYPE" value="TOP"/>
+              <properties key="L_SPACING" value="0"/>
+              <properties key="L_MARGIN" value="0"/>
+              <properties key="current-height-shape" value="15"/>
+              <properties key="current-width-shape" value="121"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="21" x="8" y="8" style="//@styles.0"/>
+              <link>
+                <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.0"/>
+              </link>
+              <anchors xsi:type="pi:ChopboxAnchor"/>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.invisibleShape"/>
+                <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.0"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_2"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="15"/>
+                <properties key="L_MINH" value="15"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.3" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.0"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_3"/>
+                <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" lineStyle="UNSPECIFIED" style="//@styles.0">
+                  <points x="7" y="5"/>
+                  <points x="7" y="12"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.0"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_4"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="2"/>
+                <properties key="L_MINH" value="2"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="2" height="2" x="7" y="3" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.0"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_5"/>
+                <properties key="L_MINW" value="100"/>
+                <properties key="L_MINH" value="10"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="110" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="clearance">
+                  <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.0"/>
+                </link>
+              </children>
+            </children>
+            <children xsi:type="pi:ContainerShape" visible="true" active="true">
+              <properties key="ID" value="InputShape.containerShape"/>
+              <properties key="L_H_STR" value="true"/>
+              <properties key="L_V_STR" value="true"/>
+              <properties key="L_FLEX" value="true"/>
+              <properties key="L_VIS" value="true"/>
+              <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+              <properties key="L_TYPE" value="TOP"/>
+              <properties key="L_SPACING" value="0"/>
+              <properties key="L_MARGIN" value="0"/>
+              <properties key="current-height-shape" value="15"/>
+              <properties key="current-width-shape" value="121"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="21" x="8" y="29" style="//@styles.0"/>
+              <link>
+                <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.1"/>
+              </link>
+              <anchors xsi:type="pi:ChopboxAnchor"/>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.invisibleShape"/>
+                <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.1"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_2"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="15"/>
+                <properties key="L_MINH" value="15"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.3" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.1"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_3"/>
+                <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" lineStyle="UNSPECIFIED" style="//@styles.0">
+                  <points x="7" y="5"/>
+                  <points x="7" y="12"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.1"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_4"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="2"/>
+                <properties key="L_MINH" value="2"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="2" height="2" x="7" y="3" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.1"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_5"/>
+                <properties key="L_MINW" value="100"/>
+                <properties key="L_MINH" value="10"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="110" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="safetyDistance">
+                  <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.1"/>
+                </link>
+              </children>
+            </children>
+            <children xsi:type="pi:ContainerShape" visible="true" active="true">
+              <properties key="ID" value="InputShape.containerShape"/>
+              <properties key="L_H_STR" value="true"/>
+              <properties key="L_V_STR" value="true"/>
+              <properties key="L_FLEX" value="true"/>
+              <properties key="L_VIS" value="true"/>
+              <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+              <properties key="L_TYPE" value="TOP"/>
+              <properties key="L_SPACING" value="0"/>
+              <properties key="L_MARGIN" value="0"/>
+              <properties key="current-height-shape" value="15"/>
+              <properties key="current-width-shape" value="121"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="21" x="8" y="50" style="//@styles.0"/>
+              <link>
+                <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.2"/>
+              </link>
+              <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.1 //@connections.2 //@connections.3 //@connections.4"/>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.invisibleShape"/>
+                <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_2"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="15"/>
+                <properties key="L_MINH" value="15"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.3" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_3"/>
+                <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" lineStyle="UNSPECIFIED" style="//@styles.0">
+                  <points x="7" y="5"/>
+                  <points x="7" y="12"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_4"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="2"/>
+                <properties key="L_MINH" value="2"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="2" height="2" x="7" y="3" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_5"/>
+                <properties key="L_MINW" value="100"/>
+                <properties key="L_MINH" value="10"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="110" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="currentSpeed">
+                  <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+            </children>
+            <children xsi:type="pi:ContainerShape" visible="true" active="true">
+              <properties key="ID" value="InputShape.containerShape"/>
+              <properties key="L_H_STR" value="true"/>
+              <properties key="L_V_STR" value="true"/>
+              <properties key="L_FLEX" value="true"/>
+              <properties key="L_VIS" value="true"/>
+              <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+              <properties key="L_TYPE" value="TOP"/>
+              <properties key="L_SPACING" value="0"/>
+              <properties key="L_MARGIN" value="0"/>
+              <properties key="current-height-shape" value="15"/>
+              <properties key="current-width-shape" value="121"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="21" x="8" y="71" style="//@styles.0"/>
+              <link>
+                <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.3"/>
+              </link>
+              <anchors xsi:type="pi:ChopboxAnchor"/>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.invisibleShape"/>
+                <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.3"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_2"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="15"/>
+                <properties key="L_MINH" value="15"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.3" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.3"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_3"/>
+                <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" lineStyle="UNSPECIFIED" style="//@styles.0">
+                  <points x="7" y="5"/>
+                  <points x="7" y="12"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.3"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_4"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="2"/>
+                <properties key="L_MINH" value="2"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="2" height="2" x="7" y="3" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.3"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_5"/>
+                <properties key="L_MINW" value="100"/>
+                <properties key="L_MINH" value="10"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="110" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="cruisingSpeed">
+                  <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.3"/>
+                </link>
+              </children>
+            </children>
+            <children xsi:type="pi:ContainerShape" visible="true" active="true">
+              <properties key="ID" value="OutputShape.containerShape"/>
+              <properties key="L_H_STR" value="true"/>
+              <properties key="L_V_STR" value="true"/>
+              <properties key="L_FLEX" value="true"/>
+              <properties key="L_VIS" value="true"/>
+              <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+              <properties key="L_TYPE" value="TOP"/>
+              <properties key="L_SPACING" value="0"/>
+              <properties key="L_MARGIN" value="0"/>
+              <properties key="current-height-shape" value="15"/>
+              <properties key="current-width-shape" value="91"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="91" height="21" x="8" y="92" style="//@styles.0"/>
+              <link>
+                <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.4"/>
+              </link>
+              <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.0"/>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="OutputShape.invisibleShape"/>
+                <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="91" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.4"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="OutputShape.shape_2"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="15"/>
+                <properties key="L_MINH" value="15"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.4"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="OutputShape.shape_3"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="7"/>
+                <properties key="L_MINH" value="8"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.1" lineWidth="1" lineStyle="UNSPECIFIED" width="7" height="8" x="4" y="4" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.4"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="OutputShape.shape_4"/>
+                <properties key="L_MINW" value="70"/>
+                <properties key="L_MINH" value="10"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
+                <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.7" lineStyle="UNSPECIFIED" width="80" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="zone">
+                  <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.1/@selectedServices.0/@parameters.4"/>
+                </link>
+              </children>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="ID" value="ComponentInstanceShape.containerShape"/>
+    <properties key="L_TYPE" value="FIT"/>
+    <properties key="L_SPACING" value="0"/>
+    <properties key="L_MARGIN" value="0"/>
+    <properties key="L_FLEX" value="true"/>
+    <properties key="L_VIS" value="true"/>
+    <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+    <properties key="current-height-shape" value="150"/>
+    <properties key="current-width-shape" value="200"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="354" x="151" y="380" style="//@styles.0"/>
+    <link>
+      <businessObjects href="CompositeAccelerator.composite#//@composables.2"/>
+    </link>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" relativeWidth="0.5">
+      <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.5" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" width="6" height="6" x="-3"/>
+    </anchors>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="ID" value="ComponentInstanceShape.shape_1"/>
+      <properties key="IS_COMPARFTMENT" value="true"/>
+      <properties key="CAN_MOVE" value="false"/>
+      <properties key="SHAPEDSL_TEXT_ID" value="selectedServicesHook"/>
+      <properties key="L_TYPE" value="VERTICAL"/>
+      <properties key="L_SPACING" value="10"/>
+      <properties key="L_MARGIN" value="0"/>
+      <properties key="L_FLEX" value="true"/>
+      <properties key="L_MINW" value="200"/>
+      <properties key="L_MINH" value="150"/>
+      <properties key="L_H_STR" value="false"/>
+      <properties key="L_VIS" value="true"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.6" foreground="//@colors.5" lineStyle="UNSPECIFIED" width="200" height="354" style="//@styles.3"/>
+      <link>
+        <businessObjects href="CompositeAccelerator.composite#//@composables.2"/>
+      </link>
+      <children visible="true">
+        <properties key="ID" value="ComponentInstanceShape.shape_2"/>
+        <properties key="L_MINW" value="120"/>
+        <properties key="L_MINH" value="10"/>
+        <properties key="L_H_STR" value="false"/>
+        <properties key="L_VIS" value="true"/>
+        <properties key="SHAPEDSL_TEXT_ID" value="componentInstanceNameLabel"/>
+        <properties key="current-height-shape" value="24"/>
+        <properties key="current-width-shape" value="200"/>
+        <graphicsAlgorithm xsi:type="al:Text" background="//@colors.5" foreground="//@colors.1" lineStyle="UNSPECIFIED" transparency="0.0" width="200" height="24" style="//@styles.3" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="accelerator">
+          <properties key="SHAPEDSL_TEXT_ID" value="componentInstanceNameLabel"/>
+        </graphicsAlgorithm>
+        <link>
+          <businessObjects href="CompositeAccelerator.composite#//@composables.2"/>
+        </link>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ID" value="ServiceShape.containerShape"/>
+        <properties key="L_H_STR" value="true"/>
+        <properties key="L_V_STR" value="false"/>
+        <properties key="L_TYPE" value="FIT"/>
+        <properties key="L_SPACING" value="0"/>
+        <properties key="L_MARGIN" value="0"/>
+        <properties key="L_FLEX" value="true"/>
+        <properties key="L_VIS" value="true"/>
+        <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+        <properties key="current-height-shape" value="150"/>
+        <properties key="current-width-shape" value="189"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="150" y="34" style="//@styles.0"/>
+        <link>
+          <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.0"/>
+        </link>
+        <anchors xsi:type="pi:ChopboxAnchor"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <properties key="ID" value="ServiceShape.shape_1"/>
+          <properties key="L_MINW" value="180"/>
+          <properties key="L_MINH" value="150"/>
+          <properties key="L_H_STR" value="false"/>
+          <properties key="L_VIS" value="true"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="150" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
+          <link>
+            <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.0"/>
+          </link>
+          <children visible="true">
+            <properties key="ID" value="ServiceShape.shape_2"/>
+            <properties key="L_MINW" value="140"/>
+            <properties key="L_MINH" value="10"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="5" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="accelerate">
+              <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.0"/>
+            </link>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true" active="true">
+            <properties key="ID" value="ServiceShape.shape_3"/>
+            <properties key="IS_COMPARFTMENT" value="true"/>
+            <properties key="CAN_MOVE" value="false"/>
+            <properties key="SHAPEDSL_TEXT_ID" value="serviceParameterAndReference"/>
+            <properties key="L_TYPE" value="VERTICAL"/>
+            <properties key="L_SPACING" value="0"/>
+            <properties key="L_MARGIN" value="8"/>
+            <properties key="L_FLEX" value="false"/>
+            <properties key="L_MINW" value="180"/>
+            <properties key="L_MINH" value="110"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="110" x="19" y="30" style="//@styles.0"/>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.0"/>
+            </link>
+            <children xsi:type="pi:ContainerShape" visible="true" active="true">
+              <properties key="ID" value="InputShape.containerShape"/>
+              <properties key="L_H_STR" value="true"/>
+              <properties key="L_V_STR" value="true"/>
+              <properties key="L_FLEX" value="true"/>
+              <properties key="L_VIS" value="true"/>
+              <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+              <properties key="L_TYPE" value="TOP"/>
+              <properties key="L_SPACING" value="0"/>
+              <properties key="L_MARGIN" value="0"/>
+              <properties key="current-height-shape" value="15"/>
+              <properties key="current-width-shape" value="121"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="21" x="8" y="8" style="//@styles.0"/>
+              <link>
+                <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.0/@parameters.0"/>
+              </link>
+              <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.1"/>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.invisibleShape"/>
+                <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.0/@parameters.0"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_2"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="15"/>
+                <properties key="L_MINH" value="15"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.3" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.0/@parameters.0"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_3"/>
+                <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" lineStyle="UNSPECIFIED" style="//@styles.0">
+                  <points x="7" y="5"/>
+                  <points x="7" y="12"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.0/@parameters.0"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_4"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="2"/>
+                <properties key="L_MINH" value="2"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="2" height="2" x="7" y="3" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.0/@parameters.0"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_5"/>
+                <properties key="L_MINW" value="100"/>
+                <properties key="L_MINH" value="10"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="110" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="currentSpeed">
+                  <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.0/@parameters.0"/>
+                </link>
+              </children>
+            </children>
+            <children xsi:type="pi:ContainerShape" visible="true" active="true">
+              <properties key="ID" value="OutputShape.containerShape"/>
+              <properties key="L_H_STR" value="true"/>
+              <properties key="L_V_STR" value="true"/>
+              <properties key="L_FLEX" value="true"/>
+              <properties key="L_VIS" value="true"/>
+              <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+              <properties key="L_TYPE" value="TOP"/>
+              <properties key="L_SPACING" value="0"/>
+              <properties key="L_MARGIN" value="0"/>
+              <properties key="current-height-shape" value="15"/>
+              <properties key="current-width-shape" value="91"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="99" height="21" x="8" y="29" style="//@styles.0"/>
+              <link>
+                <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.0/@parameters.1"/>
+              </link>
+              <anchors xsi:type="pi:ChopboxAnchor"/>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="OutputShape.invisibleShape"/>
+                <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="91" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.0/@parameters.1"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="OutputShape.shape_2"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="15"/>
+                <properties key="L_MINH" value="15"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.0/@parameters.1"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="OutputShape.shape_3"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="7"/>
+                <properties key="L_MINH" value="8"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.1" lineWidth="1" lineStyle="UNSPECIFIED" width="7" height="8" x="4" y="4" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.0/@parameters.1"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="OutputShape.shape_4"/>
+                <properties key="L_MINW" value="70"/>
+                <properties key="L_MINH" value="10"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
+                <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.7" lineStyle="UNSPECIFIED" width="99" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="acceleratedSpeed">
+                  <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.0/@parameters.1"/>
+                </link>
+              </children>
+            </children>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ID" value="ServiceShape.containerShape"/>
+        <properties key="L_H_STR" value="true"/>
+        <properties key="L_V_STR" value="false"/>
+        <properties key="L_TYPE" value="FIT"/>
+        <properties key="L_SPACING" value="0"/>
+        <properties key="L_MARGIN" value="0"/>
+        <properties key="L_FLEX" value="true"/>
+        <properties key="L_VIS" value="true"/>
+        <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+        <properties key="current-height-shape" value="150"/>
+        <properties key="current-width-shape" value="189"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="150" y="194" style="//@styles.0"/>
+        <link>
+          <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.1"/>
+        </link>
+        <anchors xsi:type="pi:ChopboxAnchor"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <properties key="ID" value="ServiceShape.shape_1"/>
+          <properties key="L_MINW" value="180"/>
+          <properties key="L_MINH" value="150"/>
+          <properties key="L_H_STR" value="false"/>
+          <properties key="L_VIS" value="true"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="150" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
+          <link>
+            <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.1"/>
+          </link>
+          <children visible="true">
+            <properties key="ID" value="ServiceShape.shape_2"/>
+            <properties key="L_MINW" value="140"/>
+            <properties key="L_MINH" value="10"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="5" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="decelerate">
+              <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.1"/>
+            </link>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true" active="true">
+            <properties key="ID" value="ServiceShape.shape_3"/>
+            <properties key="IS_COMPARFTMENT" value="true"/>
+            <properties key="CAN_MOVE" value="false"/>
+            <properties key="SHAPEDSL_TEXT_ID" value="serviceParameterAndReference"/>
+            <properties key="L_TYPE" value="VERTICAL"/>
+            <properties key="L_SPACING" value="0"/>
+            <properties key="L_MARGIN" value="8"/>
+            <properties key="L_FLEX" value="false"/>
+            <properties key="L_MINW" value="180"/>
+            <properties key="L_MINH" value="110"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="110" x="19" y="30" style="//@styles.0"/>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.1"/>
+            </link>
+            <children xsi:type="pi:ContainerShape" visible="true" active="true">
+              <properties key="ID" value="InputShape.containerShape"/>
+              <properties key="L_H_STR" value="true"/>
+              <properties key="L_V_STR" value="true"/>
+              <properties key="L_FLEX" value="true"/>
+              <properties key="L_VIS" value="true"/>
+              <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+              <properties key="L_TYPE" value="TOP"/>
+              <properties key="L_SPACING" value="0"/>
+              <properties key="L_MARGIN" value="0"/>
+              <properties key="current-height-shape" value="15"/>
+              <properties key="current-width-shape" value="121"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="21" x="8" y="8" style="//@styles.0"/>
+              <link>
+                <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.1/@parameters.0"/>
+              </link>
+              <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.3"/>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.invisibleShape"/>
+                <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.1/@parameters.0"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_2"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="15"/>
+                <properties key="L_MINH" value="15"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.3" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.1/@parameters.0"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_3"/>
+                <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" lineStyle="UNSPECIFIED" style="//@styles.0">
+                  <points x="7" y="5"/>
+                  <points x="7" y="12"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.1/@parameters.0"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_4"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="2"/>
+                <properties key="L_MINH" value="2"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="2" height="2" x="7" y="3" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.1/@parameters.0"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_5"/>
+                <properties key="L_MINW" value="100"/>
+                <properties key="L_MINH" value="10"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="110" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="currentSpeed">
+                  <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.1/@parameters.0"/>
+                </link>
+              </children>
+            </children>
+            <children xsi:type="pi:ContainerShape" visible="true" active="true">
+              <properties key="ID" value="OutputShape.containerShape"/>
+              <properties key="L_H_STR" value="true"/>
+              <properties key="L_V_STR" value="true"/>
+              <properties key="L_FLEX" value="true"/>
+              <properties key="L_VIS" value="true"/>
+              <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+              <properties key="L_TYPE" value="TOP"/>
+              <properties key="L_SPACING" value="0"/>
+              <properties key="L_MARGIN" value="0"/>
+              <properties key="current-height-shape" value="15"/>
+              <properties key="current-width-shape" value="91"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="99" height="21" x="8" y="29" style="//@styles.0"/>
+              <link>
+                <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.1/@parameters.1"/>
+              </link>
+              <anchors xsi:type="pi:ChopboxAnchor"/>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="OutputShape.invisibleShape"/>
+                <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="91" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.1/@parameters.1"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="OutputShape.shape_2"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="15"/>
+                <properties key="L_MINH" value="15"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.1/@parameters.1"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="OutputShape.shape_3"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="7"/>
+                <properties key="L_MINH" value="8"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.1" lineWidth="1" lineStyle="UNSPECIFIED" width="7" height="8" x="4" y="4" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.1/@parameters.1"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="OutputShape.shape_4"/>
+                <properties key="L_MINW" value="70"/>
+                <properties key="L_MINH" value="10"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
+                <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.7" lineStyle="UNSPECIFIED" width="99" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="deceleratedSpeed">
+                  <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.2/@selectedServices.1/@parameters.1"/>
+                </link>
+              </children>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="ID" value="ComponentInstanceShape.containerShape"/>
+    <properties key="L_TYPE" value="FIT"/>
+    <properties key="L_SPACING" value="0"/>
+    <properties key="L_MARGIN" value="0"/>
+    <properties key="L_FLEX" value="true"/>
+    <properties key="L_VIS" value="true"/>
+    <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+    <properties key="current-height-shape" value="150"/>
+    <properties key="current-width-shape" value="200"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="354" x="500" y="380" style="//@styles.0"/>
+    <link>
+      <businessObjects href="CompositeAccelerator.composite#//@composables.3"/>
+    </link>
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" relativeWidth="0.5">
+      <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.5" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" width="6" height="6" x="-3"/>
+    </anchors>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="ID" value="ComponentInstanceShape.shape_1"/>
+      <properties key="IS_COMPARFTMENT" value="true"/>
+      <properties key="CAN_MOVE" value="false"/>
+      <properties key="SHAPEDSL_TEXT_ID" value="selectedServicesHook"/>
+      <properties key="L_TYPE" value="VERTICAL"/>
+      <properties key="L_SPACING" value="10"/>
+      <properties key="L_MARGIN" value="0"/>
+      <properties key="L_FLEX" value="true"/>
+      <properties key="L_MINW" value="200"/>
+      <properties key="L_MINH" value="150"/>
+      <properties key="L_H_STR" value="false"/>
+      <properties key="L_VIS" value="true"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.6" foreground="//@colors.5" lineStyle="UNSPECIFIED" width="200" height="354" style="//@styles.3"/>
+      <link>
+        <businessObjects href="CompositeAccelerator.composite#//@composables.3"/>
+      </link>
+      <children visible="true">
+        <properties key="ID" value="ComponentInstanceShape.shape_2"/>
+        <properties key="L_MINW" value="120"/>
+        <properties key="L_MINH" value="10"/>
+        <properties key="L_H_STR" value="false"/>
+        <properties key="L_VIS" value="true"/>
+        <properties key="SHAPEDSL_TEXT_ID" value="componentInstanceNameLabel"/>
+        <properties key="current-height-shape" value="24"/>
+        <properties key="current-width-shape" value="200"/>
+        <graphicsAlgorithm xsi:type="al:Text" background="//@colors.5" foreground="//@colors.1" lineStyle="UNSPECIFIED" transparency="0.0" width="200" height="24" style="//@styles.3" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="brakes">
+          <properties key="SHAPEDSL_TEXT_ID" value="componentInstanceNameLabel"/>
+        </graphicsAlgorithm>
+        <link>
+          <businessObjects href="CompositeAccelerator.composite#//@composables.3"/>
+        </link>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ID" value="ServiceShape.containerShape"/>
+        <properties key="L_H_STR" value="true"/>
+        <properties key="L_V_STR" value="false"/>
+        <properties key="L_TYPE" value="FIT"/>
+        <properties key="L_SPACING" value="0"/>
+        <properties key="L_MARGIN" value="0"/>
+        <properties key="L_FLEX" value="true"/>
+        <properties key="L_VIS" value="true"/>
+        <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+        <properties key="current-height-shape" value="150"/>
+        <properties key="current-width-shape" value="189"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="150" y="34" style="//@styles.0"/>
+        <link>
+          <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.0"/>
+        </link>
+        <anchors xsi:type="pi:ChopboxAnchor"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <properties key="ID" value="ServiceShape.shape_1"/>
+          <properties key="L_MINW" value="180"/>
+          <properties key="L_MINH" value="150"/>
+          <properties key="L_H_STR" value="false"/>
+          <properties key="L_VIS" value="true"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="150" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
+          <link>
+            <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.0"/>
+          </link>
+          <children visible="true">
+            <properties key="ID" value="ServiceShape.shape_2"/>
+            <properties key="L_MINW" value="140"/>
+            <properties key="L_MINH" value="10"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="5" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="applyBrakes">
+              <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.0"/>
+            </link>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true" active="true">
+            <properties key="ID" value="ServiceShape.shape_3"/>
+            <properties key="IS_COMPARFTMENT" value="true"/>
+            <properties key="CAN_MOVE" value="false"/>
+            <properties key="SHAPEDSL_TEXT_ID" value="serviceParameterAndReference"/>
+            <properties key="L_TYPE" value="VERTICAL"/>
+            <properties key="L_SPACING" value="0"/>
+            <properties key="L_MARGIN" value="8"/>
+            <properties key="L_FLEX" value="false"/>
+            <properties key="L_MINW" value="180"/>
+            <properties key="L_MINH" value="110"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="110" x="19" y="30" style="//@styles.0"/>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.0"/>
+            </link>
+            <children xsi:type="pi:ContainerShape" visible="true" active="true">
+              <properties key="ID" value="InputShape.containerShape"/>
+              <properties key="L_H_STR" value="true"/>
+              <properties key="L_V_STR" value="true"/>
+              <properties key="L_FLEX" value="true"/>
+              <properties key="L_VIS" value="true"/>
+              <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+              <properties key="L_TYPE" value="TOP"/>
+              <properties key="L_SPACING" value="0"/>
+              <properties key="L_MARGIN" value="0"/>
+              <properties key="current-height-shape" value="15"/>
+              <properties key="current-width-shape" value="121"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="21" x="8" y="8" style="//@styles.0"/>
+              <link>
+                <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.0/@parameters.0"/>
+              </link>
+              <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.2"/>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.invisibleShape"/>
+                <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.0/@parameters.0"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_2"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="15"/>
+                <properties key="L_MINH" value="15"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.3" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.0/@parameters.0"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_3"/>
+                <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" lineStyle="UNSPECIFIED" style="//@styles.0">
+                  <points x="7" y="5"/>
+                  <points x="7" y="12"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.0/@parameters.0"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_4"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="2"/>
+                <properties key="L_MINH" value="2"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="2" height="2" x="7" y="3" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.0/@parameters.0"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_5"/>
+                <properties key="L_MINW" value="100"/>
+                <properties key="L_MINH" value="10"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="110" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="currentSpeed">
+                  <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.0/@parameters.0"/>
+                </link>
+              </children>
+            </children>
+            <children xsi:type="pi:ContainerShape" visible="true" active="true">
+              <properties key="ID" value="OutputShape.containerShape"/>
+              <properties key="L_H_STR" value="true"/>
+              <properties key="L_V_STR" value="true"/>
+              <properties key="L_FLEX" value="true"/>
+              <properties key="L_VIS" value="true"/>
+              <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+              <properties key="L_TYPE" value="TOP"/>
+              <properties key="L_SPACING" value="0"/>
+              <properties key="L_MARGIN" value="0"/>
+              <properties key="current-height-shape" value="15"/>
+              <properties key="current-width-shape" value="91"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="91" height="21" x="8" y="29" style="//@styles.0"/>
+              <link>
+                <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.0/@parameters.1"/>
+              </link>
+              <anchors xsi:type="pi:ChopboxAnchor"/>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="OutputShape.invisibleShape"/>
+                <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="91" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.0/@parameters.1"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="OutputShape.shape_2"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="15"/>
+                <properties key="L_MINH" value="15"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.0/@parameters.1"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="OutputShape.shape_3"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="7"/>
+                <properties key="L_MINH" value="8"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.1" lineWidth="1" lineStyle="UNSPECIFIED" width="7" height="8" x="4" y="4" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.0/@parameters.1"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="OutputShape.shape_4"/>
+                <properties key="L_MINW" value="70"/>
+                <properties key="L_MINH" value="10"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
+                <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.7" lineStyle="UNSPECIFIED" width="80" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="currentSpeed">
+                  <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.0/@parameters.1"/>
+                </link>
+              </children>
+            </children>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="ID" value="ServiceShape.containerShape"/>
+        <properties key="L_H_STR" value="true"/>
+        <properties key="L_V_STR" value="false"/>
+        <properties key="L_TYPE" value="FIT"/>
+        <properties key="L_SPACING" value="0"/>
+        <properties key="L_MARGIN" value="0"/>
+        <properties key="L_FLEX" value="true"/>
+        <properties key="L_VIS" value="true"/>
+        <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+        <properties key="current-height-shape" value="150"/>
+        <properties key="current-width-shape" value="189"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="150" y="194" style="//@styles.0"/>
+        <link>
+          <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.1"/>
+        </link>
+        <anchors xsi:type="pi:ChopboxAnchor"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <properties key="ID" value="ServiceShape.shape_1"/>
+          <properties key="L_MINW" value="180"/>
+          <properties key="L_MINH" value="150"/>
+          <properties key="L_H_STR" value="false"/>
+          <properties key="L_VIS" value="true"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="150" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
+          <link>
+            <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.1"/>
+          </link>
+          <children visible="true">
+            <properties key="ID" value="ServiceShape.shape_2"/>
+            <properties key="L_MINW" value="140"/>
+            <properties key="L_MINH" value="10"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="5" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="applyEmergencyBrakes">
+              <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.1"/>
+            </link>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true" active="true">
+            <properties key="ID" value="ServiceShape.shape_3"/>
+            <properties key="IS_COMPARFTMENT" value="true"/>
+            <properties key="CAN_MOVE" value="false"/>
+            <properties key="SHAPEDSL_TEXT_ID" value="serviceParameterAndReference"/>
+            <properties key="L_TYPE" value="VERTICAL"/>
+            <properties key="L_SPACING" value="0"/>
+            <properties key="L_MARGIN" value="8"/>
+            <properties key="L_FLEX" value="false"/>
+            <properties key="L_MINW" value="180"/>
+            <properties key="L_MINH" value="110"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="110" x="19" y="30" style="//@styles.0"/>
+            <link>
+              <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.1"/>
+            </link>
+            <children xsi:type="pi:ContainerShape" visible="true" active="true">
+              <properties key="ID" value="InputShape.containerShape"/>
+              <properties key="L_H_STR" value="true"/>
+              <properties key="L_V_STR" value="true"/>
+              <properties key="L_FLEX" value="true"/>
+              <properties key="L_VIS" value="true"/>
+              <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+              <properties key="L_TYPE" value="TOP"/>
+              <properties key="L_SPACING" value="0"/>
+              <properties key="L_MARGIN" value="0"/>
+              <properties key="current-height-shape" value="15"/>
+              <properties key="current-width-shape" value="121"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="21" x="8" y="8" style="//@styles.0"/>
+              <link>
+                <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.1/@parameters.0"/>
+              </link>
+              <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.4"/>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.invisibleShape"/>
+                <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.1/@parameters.0"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_2"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="15"/>
+                <properties key="L_MINH" value="15"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.3" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.1/@parameters.0"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_3"/>
+                <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" lineStyle="UNSPECIFIED" style="//@styles.0">
+                  <points x="7" y="5"/>
+                  <points x="7" y="12"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.1/@parameters.0"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_4"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="2"/>
+                <properties key="L_MINH" value="2"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="2" height="2" x="7" y="3" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.1/@parameters.0"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_5"/>
+                <properties key="L_MINW" value="100"/>
+                <properties key="L_MINH" value="10"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="110" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="currentSpeed">
+                  <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.1/@parameters.0"/>
+                </link>
+              </children>
+            </children>
+            <children xsi:type="pi:ContainerShape" visible="true" active="true">
+              <properties key="ID" value="OutputShape.containerShape"/>
+              <properties key="L_H_STR" value="true"/>
+              <properties key="L_V_STR" value="true"/>
+              <properties key="L_FLEX" value="true"/>
+              <properties key="L_VIS" value="true"/>
+              <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+              <properties key="L_TYPE" value="TOP"/>
+              <properties key="L_SPACING" value="0"/>
+              <properties key="L_MARGIN" value="0"/>
+              <properties key="current-height-shape" value="15"/>
+              <properties key="current-width-shape" value="91"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="91" height="21" x="8" y="29" style="//@styles.0"/>
+              <link>
+                <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.1/@parameters.1"/>
+              </link>
+              <anchors xsi:type="pi:ChopboxAnchor"/>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="OutputShape.invisibleShape"/>
+                <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="91" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.1/@parameters.1"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="OutputShape.shape_2"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="15"/>
+                <properties key="L_MINH" value="15"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.1/@parameters.1"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="OutputShape.shape_3"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="7"/>
+                <properties key="L_MINH" value="8"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.1" lineWidth="1" lineStyle="UNSPECIFIED" width="7" height="8" x="4" y="4" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.1/@parameters.1"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="OutputShape.shape_4"/>
+                <properties key="L_MINW" value="70"/>
+                <properties key="L_MINH" value="10"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
+                <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.7" lineStyle="UNSPECIFIED" width="80" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="currentSpeed">
+                  <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="CompositeAccelerator.composite#//@composables.3/@selectedServices.1/@parameters.1"/>
+                </link>
+              </children>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+  </children>
+  <styles background="//@colors.1" foreground="//@colors.2" lineWidth="1" filled="true" lineVisible="true" transparency="0.0" id="DefaultSprayStyle" description="This is the default Style definition for Spray" font="//@fonts.1" stretchH="false" stretchV="false" proportional="false"/>
+  <styles background="//@colors.1" foreground="//@colors.4" lineWidth="2" filled="true" lineVisible="true" transparency="0.0" id="SelectorNoBgd" description="" font="//@fonts.0"/>
+  <styles foreground="//@colors.2" lineWidth="1" filled="false" lineVisible="true" transparency="0.0" id="SelectorTextStyle" description="" font="//@fonts.2"/>
+  <styles background="//@colors.1" foreground="//@colors.5" lineWidth="2" filled="true" lineVisible="true" transparency="0.0" id="Component" description="" font="//@fonts.3"/>
+  <styles background="//@colors.1" foreground="//@colors.7" lineWidth="1" lineStyle="DASH" filled="true" lineVisible="true" transparency="0.0" id="DataChannel" description="" font="//@fonts.0"/>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@children.0/@children.1/@children.0/@children.1/@children.4/@anchors.0" end="//@children.0/@children.0/@children.1/@children.0/@anchors.0">
+    <properties key="MODEL_TYPE" value="DataChannel"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" lineStyle="DASH" filled="false" transparency="0.0" style="//@styles.4"/>
+    <link>
+      <businessObjects href="CompositeAccelerator.composite#//@dataChannels.0"/>
+    </link>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" background="//@colors.2" lineWidth="1" filled="true" transparency="0.0" style="//@styles.4">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+      <link>
+        <businessObjects href="CompositeAccelerator.composite#//@dataChannels.0"/>
+      </link>
+    </connectionDecorators>
+    <bendpoints x="398" y="237"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@anchors.0" end="//@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@anchors.0">
+    <properties key="MODEL_TYPE" value="DataChannel"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" lineStyle="DASH" filled="false" transparency="0.0" style="//@styles.4"/>
+    <link>
+      <businessObjects href="CompositeAccelerator.composite#//@dataChannels.1"/>
+    </link>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" background="//@colors.2" lineWidth="1" filled="true" transparency="0.0" style="//@styles.4">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+      <link>
+        <businessObjects href="CompositeAccelerator.composite#//@dataChannels.1"/>
+      </link>
+    </connectionDecorators>
+    <bendpoints x="266" y="169"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@anchors.0" end="//@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@anchors.0">
+    <properties key="MODEL_TYPE" value="DataChannel"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" lineStyle="DASH" filled="false" transparency="0.0" style="//@styles.4"/>
+    <link>
+      <businessObjects href="CompositeAccelerator.composite#//@dataChannels.2"/>
+    </link>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" background="//@colors.2" lineWidth="1" filled="true" transparency="0.0" style="//@styles.4">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+      <link>
+        <businessObjects href="CompositeAccelerator.composite#//@dataChannels.2"/>
+      </link>
+    </connectionDecorators>
+    <bendpoints x="552" y="165"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@anchors.0" end="//@children.2/@children.0/@children.2/@children.0/@children.1/@children.0/@anchors.0">
+    <properties key="MODEL_TYPE" value="DataChannel"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" lineStyle="DASH" filled="false" transparency="0.0" style="//@styles.4"/>
+    <link>
+      <businessObjects href="CompositeAccelerator.composite#//@dataChannels.3"/>
+    </link>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" background="//@colors.2" lineWidth="1" filled="true" transparency="0.0" style="//@styles.4">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+      <link>
+        <businessObjects href="CompositeAccelerator.composite#//@dataChannels.3"/>
+      </link>
+    </connectionDecorators>
+    <bendpoints x="238" y="121"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@anchors.0" end="//@children.3/@children.0/@children.2/@children.0/@children.1/@children.0/@anchors.0">
+    <properties key="MODEL_TYPE" value="DataChannel"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" lineStyle="DASH" filled="false" transparency="0.0" style="//@styles.4"/>
+    <link>
+      <businessObjects href="CompositeAccelerator.composite#//@dataChannels.4"/>
+    </link>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" background="//@colors.2" lineWidth="1" filled="true" transparency="0.0" style="//@styles.4">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+      <link>
+        <businessObjects href="CompositeAccelerator.composite#//@dataChannels.4"/>
+      </link>
+    </connectionDecorators>
+    <bendpoints x="587" y="121"/>
+  </connections>
+  <colors red="249" green="238" blue="227"/>
+  <colors red="255" green="255" blue="255"/>
+  <colors/>
+  <colors green="127"/>
+  <colors red="255" green="112" blue="34"/>
+  <colors red="128" green="128" blue="128"/>
+  <colors red="192" green="192" blue="192"/>
+  <colors blue="255"/>
+  <fonts name="Arial" size="8"/>
+  <fonts name="Arial" size="10" bold="true"/>
+  <fonts name="Arial" size="10"/>
+  <fonts name="Arial" size="12" bold="true"/>
+</pi:Diagram>

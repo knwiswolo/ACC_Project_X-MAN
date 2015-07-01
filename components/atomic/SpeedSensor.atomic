@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xcore:AtomicComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xcore="uk.xman.xcore" name="SpeedSensor">
+  <services name="generateSpeed">
+    <parameters xsi:type="xcore:Output" name="initialSpeed" dataType="Float" order="0"/>
+  </services>
+  <services name="calculateSpeedDifference">
+    <parameters xsi:type="xcore:Input" name="cruisingSpeed" dataType="Float" order="0"/>
+    <parameters xsi:type="xcore:Input" name="currentSpeed" dataType="Float" order="0"/>
+    <parameters xsi:type="xcore:Output" name="speedDifference" order="0"/>
+  </services>
+  <computationUnit interfaceCode="/*&#xA;&#x9;&#x9;* This is Java interface of the component SpeedSensor&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public interface SpeedSensor {public  Float  generateSpeed (&#xA; ); &#xA;public  Integer  calculateSpeedDifference (&#xA;    &#x9;&#x9;Float cruisingSpeed, &#xA;    &#x9;&#x9;    &#x9;&#x9;Float currentSpeed&#xA;    &#x9;&#x9; ); &#xA;}" sourceCode="/*&#xA;&#x9;&#x9;* This is Java implementation of the atomic component SpeedSensor&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public class SpeedSensorImpl implements SpeedSensor {&#xA;/**&#xA; * Constructor of atomic component SpeedSensor&#xA; */&#xA;public SpeedSensorImpl() {&#xA;}public  Float  generateSpeed (&#xA; ) {&#xA;    &#x9;&#x9;&#x9;Float initialSpeed = null;&#xA;    &#x9;&#x9;&#x9;// TODO: auto-generated code, to be implemented by developers&#xA;    &#x9;&#x9;&#x9;return initialSpeed;&#xA;    &#x9;&#x9;}}"/>
+</xcore:AtomicComponent>
