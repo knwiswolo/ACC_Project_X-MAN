@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xcore:AtomicComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xcore="uk.xman.xcore" name="DriverInputData">
+  <services name="cruisingSpeedInput">
+    <parameters xsi:type="xcore:Output" name="cruisingSpeed" dataType="Float" order="0"/>
+  </services>
+  <services name="safetyDistanceInput">
+    <parameters xsi:type="xcore:Output" name="safetyDistance" dataType="Float" order="0"/>
+  </services>
+  <computationUnit interfaceCode="/*&#xA;&#x9;&#x9;* This is Java interface of the component DriverInputData&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public interface DriverInputData {public  Float  cruisingSpeedInput (&#xA; ); &#xA;public  Float  safetyDistanceInput (&#xA; ); &#xA;}" sourceCode="/*&#xA;&#x9;&#x9;* This is Java implementation of the atomic component DriverInputData&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public class DriverInputDataImpl implements DriverInputData {&#xA;/**&#xA; * Constructor of atomic component DriverInputData&#xA; */&#xA;public DriverInputDataImpl() {&#xA;}public  Map&lt;String, Object>  driverInput (&#xA; ) {&#xA;    &#x9;&#x9;&#x9;Map&lt;String, Object> returnValues = new HashMap&lt;String, Object>();&#xA;    &#x9;&#x9;&#x9;Float cruisingSpeed = null;&#xA;    &#x9;&#x9;&#x9;returnValues.put(&quot;cruisingSpeed&quot;, cruisingSpeed);&#xA;    &#x9;&#x9;&#x9;Float safetyDistance = null;&#xA;    &#x9;&#x9;&#x9;returnValues.put(&quot;safetyDistance&quot;, safetyDistance);&#xA;    &#x9;&#x9;&#x9;// TODO: auto-generated code, to be implemented by developers&#xA;    &#x9;&#x9;&#x9;return returnValues;&#xA;    &#x9;&#x9;}}"/>
+</xcore:AtomicComponent>

@@ -1,4 +1,4 @@
-package acc_interface;
+package acc_interface_impl;
 
 import java.util.Scanner;
 
@@ -82,10 +82,10 @@ public class ACCUserInterface {
 						speedDifference = speedControl.calculateSpeedDifference(initialSpeed, cruisingSpeed);
 						
 						// setting initial speed and distance as currents
-						speedSensor.setCurrentSpeed(initialSpeed);
-						currentSpeed = speedSensor.getCurrentSpeed();
-						radarSimulator.setClearance(initialClearance);
-						currentClearance = radarSimulator.getClearance();
+						//speedSensor.setCurrentSpeed(initialSpeed);
+						//currentSpeed = speedSensor.getCurrentSpeed();
+						//radarSimulator.setClearance(initialClearance);
+						//currentClearance = radarSimulator.getClearance();
 						
 						System.out.println("Distance from safety distance: " + distanceFromSafetyDistance);
 						System.out.println("Current clearance: " + currentClearance);

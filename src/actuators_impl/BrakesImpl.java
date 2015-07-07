@@ -1,30 +1,36 @@
 package actuators_impl;
 
-import control_system_impl.SpeedControlImpl;
 import actuators.Brakes;
 
 /*
-		* This is Java implementation of the atomic component AcceleratorImpl
+		* This is Java implementation of the atomic component BrakeImpl
 		*/
 				
 public class BrakesImpl implements Brakes {
-/**
- * Constructor of atomic component BrakesImpl
- */	
+
+	private static Float MAX_SPEED = (float)250;
+
+	/**
+	 * Constructor of atomic component BrakesImpl
+	 */	
 	public BrakesImpl() {}
-	
-	SpeedControlImpl speedControl = new SpeedControlImpl();
-	
-	@Override
+		
 	public Float applyBrakes(Float currentSpeed) {
-		System.out.println("<brakes applied | currentSpeed>: " + speedControl.increaseSpeed(currentSpeed));
-		return speedControl.decreaseSpeed(currentSpeed);
-	}
+		Float speedAfterBrake = null;
+		if (currentSpeed > 0 && currentSpeed <= MAX_SPEED){
+			speedAfterBrake = currentSpeed--;
+			return speedAfterBrake;
+		}else System.out.println ("VEHICLE STATIONARY!");
+		return speedAfterBrake;
+	} // at the moment brake, emergency brake are the same - make actuator pressure differ
 	
-	@Override
 	public Float applyEmergencyBrakes(Float currentSpeed) {
-		System.out.println("<emergency brakes applied | currentSpeed>: " + speedControl.decreaseSpeed(currentSpeed));
-		return speedControl.decreaseSpeed(currentSpeed);
+		Float speedAfterEmergencyBrake = null;
+		if (currentSpeed > 0 && currentSpeed <= MAX_SPEED){
+			speedAfterEmergencyBrake = currentSpeed--;
+			return speedAfterEmergencyBrake;
+		}else System.out.println ("VEHICLE STATIONARY!");
+		return speedAfterEmergencyBrake;
 	}
 		
 }

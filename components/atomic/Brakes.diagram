@@ -73,9 +73,9 @@
     <properties key="L_FLEX" value="true"/>
     <properties key="L_VIS" value="true"/>
     <properties key="IS_SHAPE_FROM_DSL" value="true"/>
-    <properties key="current-height-shape" value="150"/>
+    <properties key="current-height-shape" value="91"/>
     <properties key="current-width-shape" value="189"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="150" x="240" y="150" style="//@styles.0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="91" x="171" y="34" style="//@styles.0"/>
     <link>
       <businessObjects href="Brakes.atomic#//@services.0"/>
     </link>
@@ -86,7 +86,7 @@
       <properties key="L_MINH" value="150"/>
       <properties key="L_H_STR" value="false"/>
       <properties key="L_VIS" value="true"/>
-      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="150" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
+      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="91" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
       <link>
         <businessObjects href="Brakes.atomic#//@services.0"/>
       </link>
@@ -97,7 +97,7 @@
         <properties key="L_H_STR" value="false"/>
         <properties key="L_VIS" value="true"/>
         <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
-        <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="5" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="applyBrakes">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="3" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="applyBrakes">
           <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
         </graphicsAlgorithm>
         <link>
@@ -117,7 +117,7 @@
         <properties key="L_MINH" value="110"/>
         <properties key="L_H_STR" value="false"/>
         <properties key="L_VIS" value="true"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="110" x="19" y="30" style="//@styles.0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="67" x="19" y="18" style="//@styles.0"/>
         <link>
           <businessObjects href="Brakes.atomic#//@services.0"/>
         </link>
@@ -208,7 +208,7 @@
           <properties key="L_MARGIN" value="0"/>
           <properties key="current-height-shape" value="15"/>
           <properties key="current-width-shape" value="91"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="91" height="21" x="8" y="29" style="//@styles.0"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="92" height="21" x="8" y="29" style="//@styles.0"/>
           <link>
             <businessObjects href="Brakes.atomic#//@services.0/@parameters.1"/>
           </link>
@@ -253,7 +253,7 @@
             <properties key="L_H_STR" value="false"/>
             <properties key="L_VIS" value="true"/>
             <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="80" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="currentSpeed">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="92" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="speedAfterBrake">
               <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
             </graphicsAlgorithm>
             <link>
@@ -274,9 +274,9 @@
     <properties key="L_FLEX" value="true"/>
     <properties key="L_VIS" value="true"/>
     <properties key="IS_SHAPE_FROM_DSL" value="true"/>
-    <properties key="current-height-shape" value="150"/>
+    <properties key="current-height-shape" value="91"/>
     <properties key="current-width-shape" value="189"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="150" x="471" y="150" style="//@styles.0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="91" x="362" y="34" style="//@styles.0"/>
     <link>
       <businessObjects href="Brakes.atomic#//@services.1"/>
     </link>
@@ -287,7 +287,7 @@
       <properties key="L_MINH" value="150"/>
       <properties key="L_H_STR" value="false"/>
       <properties key="L_VIS" value="true"/>
-      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="150" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
+      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="91" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
       <link>
         <businessObjects href="Brakes.atomic#//@services.1"/>
       </link>
@@ -298,7 +298,7 @@
         <properties key="L_H_STR" value="false"/>
         <properties key="L_VIS" value="true"/>
         <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
-        <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="5" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="applyEmergencyBrakes">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="3" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="applyEmergencyBrakes">
           <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
         </graphicsAlgorithm>
         <link>
@@ -318,7 +318,7 @@
         <properties key="L_MINH" value="110"/>
         <properties key="L_H_STR" value="false"/>
         <properties key="L_VIS" value="true"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="110" x="19" y="30" style="//@styles.0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="67" x="19" y="18" style="//@styles.0"/>
         <link>
           <businessObjects href="Brakes.atomic#//@services.1"/>
         </link>
@@ -409,7 +409,7 @@
           <properties key="L_MARGIN" value="0"/>
           <properties key="current-height-shape" value="15"/>
           <properties key="current-width-shape" value="91"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="91" height="21" x="8" y="29" style="//@styles.0"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="148" height="21" x="8" y="29" style="//@styles.0"/>
           <link>
             <businessObjects href="Brakes.atomic#//@services.1/@parameters.1"/>
           </link>
@@ -454,7 +454,7 @@
             <properties key="L_H_STR" value="false"/>
             <properties key="L_VIS" value="true"/>
             <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="80" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="currentSpeed">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="148" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="speedAfterEmergencyBrake">
               <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
             </graphicsAlgorithm>
             <link>

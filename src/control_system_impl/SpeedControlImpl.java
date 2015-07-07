@@ -18,7 +18,7 @@ public class SpeedControlImpl implements SpeedControl {
 	}
 	
 	public Float increaseSpeed (Float currentSpeed) {
-		if (currentSpeed < MAX_SPEED){ // figure this out!
+		if (currentSpeed < MAX_SPEED){ 
 			currentSpeed++;
 			return currentSpeed;
 		}else System.out.println ("MAX SPEED REACHED!");

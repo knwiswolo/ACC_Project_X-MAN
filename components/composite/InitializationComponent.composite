@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xcore:CompositeComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xcore="uk.xman.xcore" name="InitializationComponent">
+  <services name="initializationService">
+    <parameters xsi:type="xcore:Output" name="initialClearance" dataType="Float" dataChannels="//@dataChannels.0" order="0"/>
+    <parameters xsi:type="xcore:Output" name="initialSpeed" dataType="Float" dataChannels="//@dataChannels.1" order="0"/>
+    <serviceReferences name="radarSimulator.simulateInitialClearance" service="//@composables.0/@selectedServices.0"/>
+    <serviceReferences name="speedSensor.generateSpeed" service="//@composables.1/@selectedServices.0"/>
+  </services>
+  <composables xsi:type="xcore:ComponentInstance" name="radarSimulator" componentType="RadarSimulator">
+    <selectedServices name="simulateInitialClearance">
+      <parameters xsi:type="xcore:Output" name="initialClearance" dataType="Float" dataChannels="//@dataChannels.0" order="0"/>
+    </selectedServices>
+    <componentReference xsi:type="xcore:AtomicComponent" name="RadarSimulator">
+      <services name="simulateInitialClearance">
+        <parameters xsi:type="xcore:Output" name="initialClearance" dataType="Float" order="0"/>
+      </services>
+      <services name="updateClearance">
+        <parameters xsi:type="xcore:Input" name="clearance" dataType="Float" order="0"/>
+        <parameters xsi:type="xcore:Output" name="updatedClearance" dataType="Float" order="1"/>
+      </services>
+      <computationUnit interfaceCode="/*&#xA;&#x9;&#x9;* This is Java interface of the component RadarSimulator&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public interface RadarSimulator {public  Float  simulateInitialClearance (&#xA; ); &#xA;public  Float  updateClearance (&#xA;    &#x9;&#x9;Float clearance&#xA;    &#x9;&#x9; ); &#xA;}" sourceCode="/*&#xA;&#x9;&#x9;* This is Java implementation of the atomic component RadarSimulator&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public class RadarSimulatorImpl implements RadarSimulator {&#xA;/**&#xA; * Constructor of atomic component RadarSimulator&#xA; */&#xA;public RadarSimulatorImpl() {&#xA;}public  Float  radarSimulator (&#xA; ) {&#xA;    &#x9;&#x9;&#x9;Float clearance = null;&#xA;    &#x9;&#x9;&#x9;// TODO: auto-generated code, to be implemented by developers&#xA;    &#x9;&#x9;&#x9;return clearance;&#xA;    &#x9;&#x9;}}"/>
+    </componentReference>
+  </composables>
+  <composables xsi:type="xcore:ComponentInstance" name="speedSensor" componentType="SpeedSensor">
+    <selectedServices name="generateSpeed">
+      <parameters xsi:type="xcore:Output" name="initialSpeed" dataType="Float" dataChannels="//@dataChannels.1" order="0"/>
+    </selectedServices>
+    <componentReference xsi:type="xcore:AtomicComponent" name="SpeedSensor">
+      <services name="generateSpeed">
+        <parameters xsi:type="xcore:Output" name="initialSpeed" dataType="Float" order="0"/>
+      </services>
+      <services name="calculateSpeedDifference">
+        <parameters xsi:type="xcore:Input" name="cruisingSpeed" dataType="Float" order="0"/>
+        <parameters xsi:type="xcore:Input" name="currentSpeed" dataType="Float" order="0"/>
+        <parameters xsi:type="xcore:Output" name="speedDifference" order="0"/>
+      </services>
+      <services name="updateSpeed">
+        <parameters xsi:type="xcore:Input" name="speed" dataType="Float" order="0"/>
+        <parameters xsi:type="xcore:Output" name="updatedSpeed" dataType="Float" order="0"/>
+      </services>
+      <computationUnit interfaceCode="/*&#xA;&#x9;&#x9;* This is Java interface of the component SpeedSensor&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public interface SpeedSensor {public  Float  generateSpeed (&#xA; ); &#xA;public  Integer  calculateSpeedDifference (&#xA;    &#x9;&#x9;Float cruisingSpeed, &#xA;    &#x9;&#x9;    &#x9;&#x9;Float currentSpeed&#xA;    &#x9;&#x9; ); &#xA;public  Float  updateSpeed (&#xA;    &#x9;&#x9;Float speed&#xA;    &#x9;&#x9; ); &#xA;}" sourceCode="/*&#xA;&#x9;&#x9;* This is Java implementation of the atomic component SpeedSensor&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public class SpeedSensorImpl implements SpeedSensor {&#xA;/**&#xA; * Constructor of atomic component SpeedSensor&#xA; */&#xA;public SpeedSensorImpl() {&#xA;}public  Float  generateSpeed (&#xA; ) {&#xA;    &#x9;&#x9;&#x9;Float initialSpeed = null;&#xA;    &#x9;&#x9;&#x9;// TODO: auto-generated code, to be implemented by developers&#xA;    &#x9;&#x9;&#x9;return initialSpeed;&#xA;    &#x9;&#x9;}}"/>
+    </componentReference>
+  </composables>
+  <composables xsi:type="xcore:Sequencer" name="SEQUENCER" showedName="SEQUENCER" connections="//@connections.0 //@connections.1"/>
+  <connections xsi:type="xcore:CoordinationConnection" condition="0" source="//@composables.2" target="//@composables.0"/>
+  <connections xsi:type="xcore:CoordinationConnection" condition="1" source="//@composables.2" target="//@composables.1"/>
+  <dataChannels source="//@composables.0/@selectedServices.0/@parameters.0" target="//@services.0/@parameters.0"/>
+  <dataChannels source="//@composables.1/@selectedServices.0/@parameters.0" target="//@services.0/@parameters.1"/>
+</xcore:CompositeComponent>
