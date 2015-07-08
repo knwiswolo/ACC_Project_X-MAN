@@ -29,9 +29,10 @@ public class TestExample {
 		expectedValues.put("expectedRadarReading", (float)35);
 		expectedValues.put("expectedSpeedGenerated", (float)60);
 		
-		//assertEquals(expectedValues.values(), initializationComponent.initializationService().values());
-		boolean equal = expectedValues.equals(initializationComponent.initializationService().values());
-		assertEquals(equal, true);
+		assertEquals(35.0, ((Float)initializationComponent.initializationService().get("initialClearance")).floatValue(),0);
+		assertEquals(60.0, ((Float)initializationComponent.initializationService().get("initialSpeed")).floatValue(),0);
+		//boolean equal = expectedValues.equals(initializationComponent.initializationService().values());
+		//assertEquals(equal, true);
 	}
 
 }
