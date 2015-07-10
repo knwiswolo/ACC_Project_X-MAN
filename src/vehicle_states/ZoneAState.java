@@ -28,7 +28,7 @@ public class ZoneAState implements VehicleState{
 			if(currentSpeed > cruisingSpeed){
 				try{
 					Thread.sleep(decelerationPressure);
-					currentSpeed = accelerator.decelerate(currentSpeed);
+					currentSpeed = accelerator.decelerate(currentSpeed, cruisingSpeed);
 					// if clearance reaches half safety distance switch to DANGER ZONE.
 					if(clearance <= safetyDistance/2){
 						vsContext.setVehicleState(dangerZoneState);

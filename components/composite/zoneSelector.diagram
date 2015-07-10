@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<pi:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" visible="true" gridUnit="10" diagramTypeId="CompositeDesign" name="ZoneSelector" snapToGrid="true" pictogramLinks="//@link //@children.0/@link //@children.0/@children.0/@link //@children.0/@children.0/@children.0/@link //@children.0/@children.0/@children.1/@link //@children.0/@children.0/@children.1/@children.0/@link //@children.0/@children.0/@children.1/@children.0/@children.0/@link //@children.0/@children.0/@children.1/@children.0/@children.1/@link //@children.0/@children.0/@children.1/@children.0/@children.2/@link //@children.0/@children.0/@children.1/@children.0/@children.3/@link //@children.0/@children.0/@children.1/@children.0/@children.4/@link //@children.1/@link //@children.1/@children.0/@link //@children.1/@children.0/@children.0/@link //@children.1/@children.0/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@children.2/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@children.3/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@children.4/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@children.2/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@children.3/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@children.4/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@children.2/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@children.3/@link //@children.2/@link //@children.2/@children.0/@link //@children.2/@children.0/@children.0/@link //@children.2/@children.0/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@children.2/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@children.3/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@children.4/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@children.2/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@children.3/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@children.4/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.2/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.2/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.2/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.2/@children.2/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.2/@children.3/@link //@children.3/@link //@children.3/@children.0/@link //@children.3/@children.0/@children.0/@link //@children.3/@children.0/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@children.2/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@children.3/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@children.4/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@children.2/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@children.3/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@children.4/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.2/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.2/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.2/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.2/@children.2/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.2/@children.3/@link //@children.4/@link //@children.4/@children.0/@link //@children.4/@children.0/@children.0/@link //@children.4/@children.0/@children.1/@link //@children.4/@children.0/@children.1/@children.0/@link //@children.4/@children.0/@children.1/@children.0/@children.0/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.0/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.0/@children.2/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.0/@children.3/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.0/@children.4/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.1/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.1/@children.0/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.1/@children.1/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.1/@children.2/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.1/@children.3/@link //@children.5/@link //@children.5/@children.0/@link //@children.5/@children.0/@children.0/@link //@children.5/@children.0/@children.1/@link //@children.5/@children.0/@children.1/@children.0/@link //@children.5/@children.0/@children.1/@children.0/@children.0/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.0/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.0/@children.2/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.0/@children.3/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.0/@children.4/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.1/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.1/@children.0/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.1/@children.1/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.1/@children.2/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.1/@children.3/@link //@connections.0/@link //@connections.0/@connectionDecorators.0/@link //@connections.0/@connectionDecorators.1/@link //@connections.1/@link //@connections.1/@connectionDecorators.0/@link //@connections.1/@connectionDecorators.1/@link //@connections.2/@link //@connections.2/@connectionDecorators.0/@link //@connections.2/@connectionDecorators.1/@link //@connections.3/@link //@connections.3/@connectionDecorators.0/@link //@connections.3/@connectionDecorators.1/@link //@connections.4/@link //@connections.4/@connectionDecorators.0/@link //@connections.4/@connectionDecorators.1/@link //@children.6/@link //@children.6/@children.0/@link //@children.6/@children.0/@children.0/@link //@children.6/@children.0/@children.1/@link //@children.6/@children.0/@children.1/@children.0/@link //@children.6/@children.0/@children.1/@children.0/@children.0/@link //@children.6/@children.0/@children.1/@children.0/@children.1/@link //@children.6/@children.0/@children.1/@children.0/@children.2/@link //@children.6/@children.0/@children.1/@children.0/@children.3/@link //@children.6/@children.0/@children.1/@children.0/@children.4/@link //@children.6/@children.0/@children.1/@children.1/@link //@children.6/@children.0/@children.1/@children.1/@children.0/@link //@children.6/@children.0/@children.1/@children.1/@children.1/@link //@children.6/@children.0/@children.1/@children.1/@children.2/@link //@children.6/@children.0/@children.1/@children.1/@children.3/@link //@children.6/@children.0/@children.1/@children.1/@children.4/@link //@children.6/@children.0/@children.1/@children.2/@link //@children.6/@children.0/@children.1/@children.2/@children.0/@link //@children.6/@children.0/@children.1/@children.2/@children.1/@link //@children.6/@children.0/@children.1/@children.2/@children.2/@link //@children.6/@children.0/@children.1/@children.2/@children.3/@link //@children.6/@children.0/@children.1/@children.2/@children.4/@link //@children.6/@children.0/@children.1/@children.3/@link //@children.6/@children.0/@children.1/@children.3/@children.0/@link //@children.6/@children.0/@children.1/@children.3/@children.1/@link //@children.6/@children.0/@children.1/@children.3/@children.2/@link //@children.6/@children.0/@children.1/@children.3/@children.3/@link //@children.6/@children.0/@children.1/@children.4/@link //@children.6/@children.0/@children.1/@children.4/@children.0/@link //@children.6/@children.0/@children.1/@children.4/@children.1/@link //@children.6/@children.0/@children.1/@children.4/@children.2/@link //@children.6/@children.0/@children.1/@children.5/@link //@children.6/@children.0/@children.1/@children.5/@children.0/@link //@children.6/@children.0/@children.1/@children.5/@children.1/@link //@children.6/@children.0/@children.1/@children.5/@children.2/@link //@children.6/@children.0/@children.1/@children.6/@link //@children.6/@children.0/@children.1/@children.6/@children.0/@link //@children.6/@children.0/@children.1/@children.6/@children.1/@link //@children.6/@children.0/@children.1/@children.6/@children.2/@link //@children.6/@children.0/@children.1/@children.7/@link //@children.6/@children.0/@children.1/@children.7/@children.0/@link //@children.6/@children.0/@children.1/@children.7/@children.1/@link //@children.6/@children.0/@children.1/@children.7/@children.2/@link //@children.6/@children.0/@children.1/@children.8/@link //@children.6/@children.0/@children.1/@children.8/@children.0/@link //@children.6/@children.0/@children.1/@children.8/@children.1/@link //@children.6/@children.0/@children.1/@children.8/@children.2/@link //@connections.5/@link //@connections.5/@connectionDecorators.0/@link //@connections.6/@link //@connections.6/@connectionDecorators.0/@link //@connections.7/@link //@connections.7/@connectionDecorators.0/@link //@connections.8/@link //@connections.8/@connectionDecorators.0/@link //@connections.9/@link //@connections.9/@connectionDecorators.0/@link //@connections.10/@link //@connections.10/@connectionDecorators.0/@link //@connections.11/@link //@connections.11/@connectionDecorators.0/@link //@connections.12/@link //@connections.12/@connectionDecorators.0/@link //@connections.13/@link //@connections.13/@connectionDecorators.0/@link //@connections.14/@link //@connections.14/@connectionDecorators.0/@link //@connections.15/@link //@connections.15/@connectionDecorators.0/@link //@connections.16/@link //@connections.16/@connectionDecorators.0/@link //@connections.17/@link //@connections.17/@connectionDecorators.0/@link //@connections.18/@link //@connections.18/@connectionDecorators.0/@link" version="0.11.0">
+<pi:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" visible="true" gridUnit="10" diagramTypeId="CompositeDesign" name="ZoneSelector" snapToGrid="true" pictogramLinks="//@link //@children.0/@link //@children.0/@children.0/@link //@children.0/@children.0/@children.0/@link //@children.0/@children.0/@children.1/@link //@children.0/@children.0/@children.1/@children.0/@link //@children.0/@children.0/@children.1/@children.0/@children.0/@link //@children.0/@children.0/@children.1/@children.0/@children.1/@link //@children.0/@children.0/@children.1/@children.0/@children.2/@link //@children.0/@children.0/@children.1/@children.0/@children.3/@link //@children.0/@children.0/@children.1/@children.0/@children.4/@link //@children.1/@link //@children.1/@children.0/@link //@children.1/@children.0/@children.0/@link //@children.1/@children.0/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@children.2/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@children.3/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@children.4/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@children.2/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@children.3/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@children.4/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@children.2/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@children.3/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@children.4/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.3/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.3/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.3/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.3/@children.2/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@children.3/@children.3/@link //@children.2/@link //@children.2/@children.0/@link //@children.2/@children.0/@children.0/@link //@children.2/@children.0/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@children.2/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@children.3/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@children.4/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@children.2/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@children.3/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@children.4/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.2/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.2/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.2/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.2/@children.2/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.2/@children.3/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.2/@children.4/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.3/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.3/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.3/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.3/@children.2/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@children.3/@children.3/@link //@children.3/@link //@children.3/@children.0/@link //@children.3/@children.0/@children.0/@link //@children.3/@children.0/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@children.2/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@children.3/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@children.4/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@children.2/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@children.3/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@children.4/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.2/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.2/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.2/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.2/@children.2/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.2/@children.3/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.2/@children.4/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.3/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.3/@children.0/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.3/@children.1/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.3/@children.2/@link //@children.3/@children.0/@children.1/@children.0/@children.1/@children.3/@children.3/@link //@children.4/@link //@children.4/@children.0/@link //@children.4/@children.0/@children.0/@link //@children.4/@children.0/@children.1/@link //@children.4/@children.0/@children.1/@children.0/@link //@children.4/@children.0/@children.1/@children.0/@children.0/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.0/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.0/@children.2/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.0/@children.3/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.0/@children.4/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.1/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.1/@children.0/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.1/@children.1/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.1/@children.2/@link //@children.4/@children.0/@children.1/@children.0/@children.1/@children.1/@children.3/@link //@children.5/@link //@children.5/@children.0/@link //@children.5/@children.0/@children.0/@link //@children.5/@children.0/@children.1/@link //@children.5/@children.0/@children.1/@children.0/@link //@children.5/@children.0/@children.1/@children.0/@children.0/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.0/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.0/@children.2/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.0/@children.3/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.0/@children.4/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.1/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.1/@children.0/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.1/@children.1/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.1/@children.2/@link //@children.5/@children.0/@children.1/@children.0/@children.1/@children.1/@children.3/@link //@connections.0/@link //@connections.0/@connectionDecorators.0/@link //@connections.0/@connectionDecorators.1/@link //@connections.1/@link //@connections.1/@connectionDecorators.0/@link //@connections.1/@connectionDecorators.1/@link //@connections.2/@link //@connections.2/@connectionDecorators.0/@link //@connections.2/@connectionDecorators.1/@link //@connections.3/@link //@connections.3/@connectionDecorators.0/@link //@connections.3/@connectionDecorators.1/@link //@connections.4/@link //@connections.4/@connectionDecorators.0/@link //@connections.4/@connectionDecorators.1/@link //@children.6/@link //@children.6/@children.0/@link //@children.6/@children.0/@children.0/@link //@children.6/@children.0/@children.1/@link //@children.6/@children.0/@children.1/@children.0/@link //@children.6/@children.0/@children.1/@children.0/@children.0/@link //@children.6/@children.0/@children.1/@children.0/@children.1/@link //@children.6/@children.0/@children.1/@children.0/@children.2/@link //@children.6/@children.0/@children.1/@children.0/@children.3/@link //@children.6/@children.0/@children.1/@children.0/@children.4/@link //@children.6/@children.0/@children.1/@children.1/@link //@children.6/@children.0/@children.1/@children.1/@children.0/@link //@children.6/@children.0/@children.1/@children.1/@children.1/@link //@children.6/@children.0/@children.1/@children.1/@children.2/@link //@children.6/@children.0/@children.1/@children.1/@children.3/@link //@children.6/@children.0/@children.1/@children.1/@children.4/@link //@children.6/@children.0/@children.1/@children.2/@link //@children.6/@children.0/@children.1/@children.2/@children.0/@link //@children.6/@children.0/@children.1/@children.2/@children.1/@link //@children.6/@children.0/@children.1/@children.2/@children.2/@link //@children.6/@children.0/@children.1/@children.2/@children.3/@link //@children.6/@children.0/@children.1/@children.2/@children.4/@link //@children.6/@children.0/@children.1/@children.3/@link //@children.6/@children.0/@children.1/@children.3/@children.0/@link //@children.6/@children.0/@children.1/@children.3/@children.1/@link //@children.6/@children.0/@children.1/@children.3/@children.2/@link //@children.6/@children.0/@children.1/@children.3/@children.3/@link //@children.6/@children.0/@children.1/@children.3/@children.4/@link //@children.6/@children.0/@children.1/@children.4/@link //@children.6/@children.0/@children.1/@children.4/@children.0/@link //@children.6/@children.0/@children.1/@children.4/@children.1/@link //@children.6/@children.0/@children.1/@children.4/@children.2/@link //@children.6/@children.0/@children.1/@children.4/@children.3/@link //@children.6/@children.0/@children.1/@children.5/@link //@children.6/@children.0/@children.1/@children.5/@children.0/@link //@children.6/@children.0/@children.1/@children.5/@children.1/@link //@children.6/@children.0/@children.1/@children.5/@children.2/@link //@children.6/@children.0/@children.1/@children.6/@link //@children.6/@children.0/@children.1/@children.6/@children.0/@link //@children.6/@children.0/@children.1/@children.6/@children.1/@link //@children.6/@children.0/@children.1/@children.6/@children.2/@link //@children.6/@children.0/@children.1/@children.7/@link //@children.6/@children.0/@children.1/@children.7/@children.0/@link //@children.6/@children.0/@children.1/@children.7/@children.1/@link //@children.6/@children.0/@children.1/@children.7/@children.2/@link //@children.6/@children.0/@children.1/@children.8/@link //@children.6/@children.0/@children.1/@children.8/@children.0/@link //@children.6/@children.0/@children.1/@children.8/@children.1/@link //@children.6/@children.0/@children.1/@children.8/@children.2/@link //@children.6/@children.0/@children.1/@children.9/@link //@children.6/@children.0/@children.1/@children.9/@children.0/@link //@children.6/@children.0/@children.1/@children.9/@children.1/@link //@children.6/@children.0/@children.1/@children.9/@children.2/@link //@connections.5/@link //@connections.5/@connectionDecorators.0/@link //@connections.6/@link //@connections.6/@connectionDecorators.0/@link //@connections.7/@link //@connections.7/@connectionDecorators.0/@link //@connections.8/@link //@connections.8/@connectionDecorators.0/@link //@connections.9/@link //@connections.9/@connectionDecorators.0/@link //@connections.10/@link //@connections.10/@connectionDecorators.0/@link //@connections.11/@link //@connections.11/@connectionDecorators.0/@link //@connections.12/@link //@connections.12/@connectionDecorators.0/@link //@connections.13/@link //@connections.13/@connectionDecorators.0/@link //@connections.14/@link //@connections.14/@connectionDecorators.0/@link //@connections.15/@link //@connections.15/@connectionDecorators.0/@link //@connections.16/@link //@connections.16/@connectionDecorators.0/@link //@connections.17/@link //@connections.17/@connectionDecorators.0/@link //@connections.18/@link //@connections.18/@connectionDecorators.0/@link //@connections.19/@link //@connections.19/@connectionDecorators.0/@link //@connections.20/@link //@connections.20/@connectionDecorators.0/@link //@connections.21/@link //@connections.21/@connectionDecorators.0/@link" version="0.11.0">
   <properties key="URI" value="platform:/resource/ACC_Project_X-MAN/components/composite/ZoneSelector.composite#/"/>
   <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.1" foreground="//@colors.0" lineWidth="1" filled="true" lineVisible="true" transparency="0.0" width="1000" height="1000"/>
   <link>
@@ -15,7 +15,7 @@
     <properties key="IS_SHAPE_FROM_DSL" value="true"/>
     <properties key="current-height-shape" value="80"/>
     <properties key="current-width-shape" value="150"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="151" height="81" x="400" y="70" style="//@styles.0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="151" height="81" x="344" y="100" style="//@styles.0"/>
     <link>
       <businessObjects href="ZoneSelector.composite#//@composables.0"/>
     </link>
@@ -154,11 +154,11 @@
     <properties key="IS_SHAPE_FROM_DSL" value="true"/>
     <properties key="current-height-shape" value="150"/>
     <properties key="current-width-shape" value="200"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="150" x="-60" y="200" style="//@styles.0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="161" x="320" y="250" style="//@styles.0"/>
     <link>
       <businessObjects href="ZoneSelector.composite#//@composables.1"/>
     </link>
-    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.2" relativeWidth="0.5">
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.0" relativeWidth="0.5">
       <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.5" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" width="6" height="6" x="-3"/>
     </anchors>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
@@ -174,7 +174,7 @@
       <properties key="L_MINH" value="150"/>
       <properties key="L_H_STR" value="false"/>
       <properties key="L_VIS" value="true"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.6" foreground="//@colors.5" lineStyle="UNSPECIFIED" width="200" height="150" style="//@styles.3"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.6" foreground="//@colors.5" lineStyle="UNSPECIFIED" width="200" height="161" style="//@styles.3"/>
       <link>
         <businessObjects href="ZoneSelector.composite#//@composables.1"/>
       </link>
@@ -187,7 +187,7 @@
         <properties key="SHAPEDSL_TEXT_ID" value="componentInstanceNameLabel"/>
         <properties key="current-height-shape" value="24"/>
         <properties key="current-width-shape" value="200"/>
-        <graphicsAlgorithm xsi:type="al:Text" background="//@colors.5" foreground="//@colors.1" lineStyle="UNSPECIFIED" transparency="0.0" width="200" height="24" style="//@styles.3" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="zoneD">
+        <graphicsAlgorithm xsi:type="al:Text" background="//@colors.5" foreground="//@colors.1" lineStyle="UNSPECIFIED" transparency="0.0" width="200" height="24" style="//@styles.3" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="zoneB">
           <properties key="SHAPEDSL_TEXT_ID" value="componentInstanceNameLabel"/>
         </graphicsAlgorithm>
         <link>
@@ -204,9 +204,9 @@
         <properties key="L_FLEX" value="true"/>
         <properties key="L_VIS" value="true"/>
         <properties key="IS_SHAPE_FROM_DSL" value="true"/>
-        <properties key="current-height-shape" value="97"/>
+        <properties key="current-height-shape" value="117"/>
         <properties key="current-width-shape" value="189"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="97" y="34" style="//@styles.0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="117" y="34" style="//@styles.0"/>
         <link>
           <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0"/>
         </link>
@@ -217,7 +217,7 @@
           <properties key="L_MINH" value="150"/>
           <properties key="L_H_STR" value="false"/>
           <properties key="L_VIS" value="true"/>
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="97" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="117" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
           <link>
             <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0"/>
           </link>
@@ -228,7 +228,7 @@
             <properties key="L_H_STR" value="false"/>
             <properties key="L_VIS" value="true"/>
             <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="3" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="zoneD_service">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="4" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="zoneB_service">
               <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
             </graphicsAlgorithm>
             <link>
@@ -248,7 +248,7 @@
             <properties key="L_MINH" value="110"/>
             <properties key="L_H_STR" value="false"/>
             <properties key="L_VIS" value="true"/>
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="71" x="19" y="19" style="//@styles.0"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="86" x="19" y="23" style="//@styles.0"/>
             <link>
               <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0"/>
             </link>
@@ -268,7 +268,7 @@
               <link>
                 <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.0"/>
               </link>
-              <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.8"/>
+              <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.6"/>
               <children xsi:type="pi:ContainerShape" visible="true">
                 <properties key="ID" value="InputShape.invisibleShape"/>
                 <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
@@ -343,7 +343,7 @@
               <link>
                 <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.1"/>
               </link>
-              <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.13"/>
+              <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.11"/>
               <children xsi:type="pi:ContainerShape" visible="true">
                 <properties key="ID" value="InputShape.invisibleShape"/>
                 <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
@@ -403,6 +403,81 @@
               </children>
             </children>
             <children xsi:type="pi:ContainerShape" visible="true" active="true">
+              <properties key="ID" value="InputShape.containerShape"/>
+              <properties key="L_H_STR" value="true"/>
+              <properties key="L_V_STR" value="true"/>
+              <properties key="L_FLEX" value="true"/>
+              <properties key="L_VIS" value="true"/>
+              <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+              <properties key="L_TYPE" value="TOP"/>
+              <properties key="L_SPACING" value="0"/>
+              <properties key="L_MARGIN" value="0"/>
+              <properties key="current-height-shape" value="15"/>
+              <properties key="current-width-shape" value="121"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="21" x="8" y="50" style="//@styles.0"/>
+              <link>
+                <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.2"/>
+              </link>
+              <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.14"/>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.invisibleShape"/>
+                <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_2"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="15"/>
+                <properties key="L_MINH" value="15"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.4" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_3"/>
+                <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" lineStyle="UNSPECIFIED" style="//@styles.0">
+                  <points x="7" y="5"/>
+                  <points x="7" y="12"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_4"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="2"/>
+                <properties key="L_MINH" value="2"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="2" height="2" x="7" y="3" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_5"/>
+                <properties key="L_MINW" value="100"/>
+                <properties key="L_MINH" value="10"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="110" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="cruisingSpeed">
+                  <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+            </children>
+            <children xsi:type="pi:ContainerShape" visible="true" active="true">
               <properties key="ID" value="OutputShape.containerShape"/>
               <properties key="L_H_STR" value="true"/>
               <properties key="L_V_STR" value="true"/>
@@ -414,16 +489,16 @@
               <properties key="L_MARGIN" value="0"/>
               <properties key="current-height-shape" value="15"/>
               <properties key="current-width-shape" value="91"/>
-              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="91" height="21" x="8" y="50" style="//@styles.0"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="91" height="21" x="8" y="71" style="//@styles.0"/>
               <link>
-                <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.2"/>
+                <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.3"/>
               </link>
-              <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.14"/>
+              <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.19"/>
               <children xsi:type="pi:ContainerShape" visible="true">
                 <properties key="ID" value="OutputShape.invisibleShape"/>
                 <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="91" height="15" style="//@styles.0"/>
                 <link>
-                  <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.2"/>
+                  <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.3"/>
                 </link>
               </children>
               <children xsi:type="pi:ContainerShape" visible="true">
@@ -436,7 +511,7 @@
                 <properties key="L_VIS" value="true"/>
                 <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
                 <link>
-                  <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.2"/>
+                  <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.3"/>
                 </link>
               </children>
               <children xsi:type="pi:ContainerShape" visible="true">
@@ -449,7 +524,7 @@
                 <properties key="L_VIS" value="true"/>
                 <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.1" lineWidth="1" lineStyle="UNSPECIFIED" width="7" height="8" x="4" y="4" style="//@styles.0"/>
                 <link>
-                  <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.2"/>
+                  <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.3"/>
                 </link>
               </children>
               <children visible="true">
@@ -463,7 +538,7 @@
                   <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
                 </graphicsAlgorithm>
                 <link>
-                  <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.2"/>
+                  <businessObjects href="ZoneSelector.composite#//@composables.1/@selectedServices.0/@parameters.3"/>
                 </link>
               </children>
             </children>
@@ -482,11 +557,11 @@
     <properties key="IS_SHAPE_FROM_DSL" value="true"/>
     <properties key="current-height-shape" value="150"/>
     <properties key="current-width-shape" value="200"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="150" x="160" y="200" style="//@styles.0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="161" x="100" y="250" style="//@styles.0"/>
     <link>
       <businessObjects href="ZoneSelector.composite#//@composables.2"/>
     </link>
-    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.1" relativeWidth="0.5">
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.3" relativeWidth="0.5">
       <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.5" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" width="6" height="6" x="-3"/>
     </anchors>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
@@ -502,7 +577,7 @@
       <properties key="L_MINH" value="150"/>
       <properties key="L_H_STR" value="false"/>
       <properties key="L_VIS" value="true"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.6" foreground="//@colors.5" lineStyle="UNSPECIFIED" width="200" height="150" style="//@styles.3"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.6" foreground="//@colors.5" lineStyle="UNSPECIFIED" width="200" height="161" style="//@styles.3"/>
       <link>
         <businessObjects href="ZoneSelector.composite#//@composables.2"/>
       </link>
@@ -532,9 +607,9 @@
         <properties key="L_FLEX" value="true"/>
         <properties key="L_VIS" value="true"/>
         <properties key="IS_SHAPE_FROM_DSL" value="true"/>
-        <properties key="current-height-shape" value="97"/>
+        <properties key="current-height-shape" value="117"/>
         <properties key="current-width-shape" value="189"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="97" y="34" style="//@styles.0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="117" y="34" style="//@styles.0"/>
         <link>
           <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0"/>
         </link>
@@ -545,7 +620,7 @@
           <properties key="L_MINH" value="150"/>
           <properties key="L_H_STR" value="false"/>
           <properties key="L_VIS" value="true"/>
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="97" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="117" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
           <link>
             <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0"/>
           </link>
@@ -556,7 +631,7 @@
             <properties key="L_H_STR" value="false"/>
             <properties key="L_VIS" value="true"/>
             <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="3" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="zoneC_service">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="4" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="zoneC_service">
               <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
             </graphicsAlgorithm>
             <link>
@@ -576,7 +651,7 @@
             <properties key="L_MINH" value="110"/>
             <properties key="L_H_STR" value="false"/>
             <properties key="L_VIS" value="true"/>
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="71" x="19" y="19" style="//@styles.0"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="86" x="19" y="23" style="//@styles.0"/>
             <link>
               <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0"/>
             </link>
@@ -731,6 +806,81 @@
               </children>
             </children>
             <children xsi:type="pi:ContainerShape" visible="true" active="true">
+              <properties key="ID" value="InputShape.containerShape"/>
+              <properties key="L_H_STR" value="true"/>
+              <properties key="L_V_STR" value="true"/>
+              <properties key="L_FLEX" value="true"/>
+              <properties key="L_VIS" value="true"/>
+              <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+              <properties key="L_TYPE" value="TOP"/>
+              <properties key="L_SPACING" value="0"/>
+              <properties key="L_MARGIN" value="0"/>
+              <properties key="current-height-shape" value="15"/>
+              <properties key="current-width-shape" value="121"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="21" x="8" y="50" style="//@styles.0"/>
+              <link>
+                <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0/@parameters.2"/>
+              </link>
+              <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.15"/>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.invisibleShape"/>
+                <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_2"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="15"/>
+                <properties key="L_MINH" value="15"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.4" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_3"/>
+                <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" lineStyle="UNSPECIFIED" style="//@styles.0">
+                  <points x="7" y="5"/>
+                  <points x="7" y="12"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_4"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="2"/>
+                <properties key="L_MINH" value="2"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="2" height="2" x="7" y="3" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_5"/>
+                <properties key="L_MINW" value="100"/>
+                <properties key="L_MINH" value="10"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="110" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="cruisingSpeed">
+                  <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+            </children>
+            <children xsi:type="pi:ContainerShape" visible="true" active="true">
               <properties key="ID" value="OutputShape.containerShape"/>
               <properties key="L_H_STR" value="true"/>
               <properties key="L_V_STR" value="true"/>
@@ -742,16 +892,16 @@
               <properties key="L_MARGIN" value="0"/>
               <properties key="current-height-shape" value="15"/>
               <properties key="current-width-shape" value="91"/>
-              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="91" height="21" x="8" y="50" style="//@styles.0"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="91" height="21" x="8" y="71" style="//@styles.0"/>
               <link>
-                <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0/@parameters.2"/>
+                <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0/@parameters.3"/>
               </link>
-              <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.15"/>
+              <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.20"/>
               <children xsi:type="pi:ContainerShape" visible="true">
                 <properties key="ID" value="OutputShape.invisibleShape"/>
                 <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="91" height="15" style="//@styles.0"/>
                 <link>
-                  <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0/@parameters.2"/>
+                  <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0/@parameters.3"/>
                 </link>
               </children>
               <children xsi:type="pi:ContainerShape" visible="true">
@@ -764,7 +914,7 @@
                 <properties key="L_VIS" value="true"/>
                 <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
                 <link>
-                  <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0/@parameters.2"/>
+                  <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0/@parameters.3"/>
                 </link>
               </children>
               <children xsi:type="pi:ContainerShape" visible="true">
@@ -777,7 +927,7 @@
                 <properties key="L_VIS" value="true"/>
                 <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.1" lineWidth="1" lineStyle="UNSPECIFIED" width="7" height="8" x="4" y="4" style="//@styles.0"/>
                 <link>
-                  <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0/@parameters.2"/>
+                  <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0/@parameters.3"/>
                 </link>
               </children>
               <children visible="true">
@@ -791,7 +941,7 @@
                   <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
                 </graphicsAlgorithm>
                 <link>
-                  <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0/@parameters.2"/>
+                  <businessObjects href="ZoneSelector.composite#//@composables.2/@selectedServices.0/@parameters.3"/>
                 </link>
               </children>
             </children>
@@ -810,11 +960,11 @@
     <properties key="IS_SHAPE_FROM_DSL" value="true"/>
     <properties key="current-height-shape" value="150"/>
     <properties key="current-width-shape" value="200"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="150" x="376" y="200" style="//@styles.0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="161" x="-120" y="250" style="//@styles.0"/>
     <link>
       <businessObjects href="ZoneSelector.composite#//@composables.3"/>
     </link>
-    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.0" relativeWidth="0.5">
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.4" relativeWidth="0.5">
       <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.5" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" width="6" height="6" x="-3"/>
     </anchors>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
@@ -830,7 +980,7 @@
       <properties key="L_MINH" value="150"/>
       <properties key="L_H_STR" value="false"/>
       <properties key="L_VIS" value="true"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.6" foreground="//@colors.5" lineStyle="UNSPECIFIED" width="200" height="150" style="//@styles.3"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.6" foreground="//@colors.5" lineStyle="UNSPECIFIED" width="200" height="161" style="//@styles.3"/>
       <link>
         <businessObjects href="ZoneSelector.composite#//@composables.3"/>
       </link>
@@ -843,7 +993,7 @@
         <properties key="SHAPEDSL_TEXT_ID" value="componentInstanceNameLabel"/>
         <properties key="current-height-shape" value="24"/>
         <properties key="current-width-shape" value="200"/>
-        <graphicsAlgorithm xsi:type="al:Text" background="//@colors.5" foreground="//@colors.1" lineStyle="UNSPECIFIED" transparency="0.0" width="200" height="24" style="//@styles.3" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="zoneB">
+        <graphicsAlgorithm xsi:type="al:Text" background="//@colors.5" foreground="//@colors.1" lineStyle="UNSPECIFIED" transparency="0.0" width="200" height="24" style="//@styles.3" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="zoneD">
           <properties key="SHAPEDSL_TEXT_ID" value="componentInstanceNameLabel"/>
         </graphicsAlgorithm>
         <link>
@@ -860,9 +1010,9 @@
         <properties key="L_FLEX" value="true"/>
         <properties key="L_VIS" value="true"/>
         <properties key="IS_SHAPE_FROM_DSL" value="true"/>
-        <properties key="current-height-shape" value="97"/>
+        <properties key="current-height-shape" value="117"/>
         <properties key="current-width-shape" value="189"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="97" y="34" style="//@styles.0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="117" y="34" style="//@styles.0"/>
         <link>
           <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0"/>
         </link>
@@ -873,7 +1023,7 @@
           <properties key="L_MINH" value="150"/>
           <properties key="L_H_STR" value="false"/>
           <properties key="L_VIS" value="true"/>
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="97" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="117" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
           <link>
             <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0"/>
           </link>
@@ -884,7 +1034,7 @@
             <properties key="L_H_STR" value="false"/>
             <properties key="L_VIS" value="true"/>
             <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="3" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="zoneB_service">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="4" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="zoneD_service">
               <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
             </graphicsAlgorithm>
             <link>
@@ -904,7 +1054,7 @@
             <properties key="L_MINH" value="110"/>
             <properties key="L_H_STR" value="false"/>
             <properties key="L_VIS" value="true"/>
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="71" x="19" y="19" style="//@styles.0"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="86" x="19" y="23" style="//@styles.0"/>
             <link>
               <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0"/>
             </link>
@@ -924,7 +1074,7 @@
               <link>
                 <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.0"/>
               </link>
-              <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.6"/>
+              <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.8"/>
               <children xsi:type="pi:ContainerShape" visible="true">
                 <properties key="ID" value="InputShape.invisibleShape"/>
                 <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
@@ -999,7 +1149,7 @@
               <link>
                 <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.1"/>
               </link>
-              <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.11"/>
+              <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.13"/>
               <children xsi:type="pi:ContainerShape" visible="true">
                 <properties key="ID" value="InputShape.invisibleShape"/>
                 <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
@@ -1059,6 +1209,81 @@
               </children>
             </children>
             <children xsi:type="pi:ContainerShape" visible="true" active="true">
+              <properties key="ID" value="InputShape.containerShape"/>
+              <properties key="L_H_STR" value="true"/>
+              <properties key="L_V_STR" value="true"/>
+              <properties key="L_FLEX" value="true"/>
+              <properties key="L_VIS" value="true"/>
+              <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+              <properties key="L_TYPE" value="TOP"/>
+              <properties key="L_SPACING" value="0"/>
+              <properties key="L_MARGIN" value="0"/>
+              <properties key="current-height-shape" value="15"/>
+              <properties key="current-width-shape" value="121"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="21" x="8" y="50" style="//@styles.0"/>
+              <link>
+                <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.2"/>
+              </link>
+              <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.16"/>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.invisibleShape"/>
+                <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_2"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="15"/>
+                <properties key="L_MINH" value="15"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.4" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_3"/>
+                <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" lineStyle="UNSPECIFIED" style="//@styles.0">
+                  <points x="7" y="5"/>
+                  <points x="7" y="12"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+              <children xsi:type="pi:ContainerShape" visible="true">
+                <properties key="ID" value="InputShape.shape_4"/>
+                <properties key="IS_COMPARFTMENT" value="false"/>
+                <properties key="CAN_MOVE" value="false"/>
+                <properties key="L_MINW" value="2"/>
+                <properties key="L_MINH" value="2"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="2" height="2" x="7" y="3" style="//@styles.0"/>
+                <link>
+                  <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+              <children visible="true">
+                <properties key="ID" value="InputShape.shape_5"/>
+                <properties key="L_MINW" value="100"/>
+                <properties key="L_MINH" value="10"/>
+                <properties key="L_H_STR" value="false"/>
+                <properties key="L_VIS" value="true"/>
+                <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="110" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="cruisingSpeed">
+                  <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+                </graphicsAlgorithm>
+                <link>
+                  <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.2"/>
+                </link>
+              </children>
+            </children>
+            <children xsi:type="pi:ContainerShape" visible="true" active="true">
               <properties key="ID" value="OutputShape.containerShape"/>
               <properties key="L_H_STR" value="true"/>
               <properties key="L_V_STR" value="true"/>
@@ -1070,16 +1295,16 @@
               <properties key="L_MARGIN" value="0"/>
               <properties key="current-height-shape" value="15"/>
               <properties key="current-width-shape" value="91"/>
-              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="91" height="21" x="8" y="50" style="//@styles.0"/>
+              <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="91" height="21" x="8" y="71" style="//@styles.0"/>
               <link>
-                <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.2"/>
+                <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.3"/>
               </link>
-              <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.16"/>
+              <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.21"/>
               <children xsi:type="pi:ContainerShape" visible="true">
                 <properties key="ID" value="OutputShape.invisibleShape"/>
                 <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="91" height="15" style="//@styles.0"/>
                 <link>
-                  <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.2"/>
+                  <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.3"/>
                 </link>
               </children>
               <children xsi:type="pi:ContainerShape" visible="true">
@@ -1092,7 +1317,7 @@
                 <properties key="L_VIS" value="true"/>
                 <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
                 <link>
-                  <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.2"/>
+                  <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.3"/>
                 </link>
               </children>
               <children xsi:type="pi:ContainerShape" visible="true">
@@ -1105,7 +1330,7 @@
                 <properties key="L_VIS" value="true"/>
                 <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.1" lineWidth="1" lineStyle="UNSPECIFIED" width="7" height="8" x="4" y="4" style="//@styles.0"/>
                 <link>
-                  <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.2"/>
+                  <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.3"/>
                 </link>
               </children>
               <children visible="true">
@@ -1119,7 +1344,7 @@
                   <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
                 </graphicsAlgorithm>
                 <link>
-                  <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.2"/>
+                  <businessObjects href="ZoneSelector.composite#//@composables.3/@selectedServices.0/@parameters.3"/>
                 </link>
               </children>
             </children>
@@ -1138,11 +1363,11 @@
     <properties key="IS_SHAPE_FROM_DSL" value="true"/>
     <properties key="current-height-shape" value="150"/>
     <properties key="current-width-shape" value="200"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="150" x="590" y="200" style="//@styles.0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="161" x="540" y="250" style="//@styles.0"/>
     <link>
       <businessObjects href="ZoneSelector.composite#//@composables.4"/>
     </link>
-    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.3" relativeWidth="0.5">
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.1" relativeWidth="0.5">
       <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.5" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" width="6" height="6" x="-3"/>
     </anchors>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
@@ -1158,7 +1383,7 @@
       <properties key="L_MINH" value="150"/>
       <properties key="L_H_STR" value="false"/>
       <properties key="L_VIS" value="true"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.6" foreground="//@colors.5" lineStyle="UNSPECIFIED" width="200" height="150" style="//@styles.3"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.6" foreground="//@colors.5" lineStyle="UNSPECIFIED" width="200" height="161" style="//@styles.3"/>
       <link>
         <businessObjects href="ZoneSelector.composite#//@composables.4"/>
       </link>
@@ -1188,9 +1413,9 @@
         <properties key="L_FLEX" value="true"/>
         <properties key="L_VIS" value="true"/>
         <properties key="IS_SHAPE_FROM_DSL" value="true"/>
-        <properties key="current-height-shape" value="87"/>
+        <properties key="current-height-shape" value="117"/>
         <properties key="current-width-shape" value="189"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="87" y="34" style="//@styles.0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="117" y="34" style="//@styles.0"/>
         <link>
           <businessObjects href="ZoneSelector.composite#//@composables.4/@selectedServices.0"/>
         </link>
@@ -1201,7 +1426,7 @@
           <properties key="L_MINH" value="150"/>
           <properties key="L_H_STR" value="false"/>
           <properties key="L_VIS" value="true"/>
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="87" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="117" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
           <link>
             <businessObjects href="ZoneSelector.composite#//@composables.4/@selectedServices.0"/>
           </link>
@@ -1232,7 +1457,7 @@
             <properties key="L_MINH" value="110"/>
             <properties key="L_H_STR" value="false"/>
             <properties key="L_VIS" value="true"/>
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="64" x="19" y="17" style="//@styles.0"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="85" x="19" y="23" style="//@styles.0"/>
             <link>
               <businessObjects href="ZoneSelector.composite#//@composables.4/@selectedServices.0"/>
             </link>
@@ -1327,7 +1552,7 @@
               <link>
                 <businessObjects href="ZoneSelector.composite#//@composables.4/@selectedServices.0/@parameters.1"/>
               </link>
-              <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.17"/>
+              <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.18"/>
               <children xsi:type="pi:ContainerShape" visible="true">
                 <properties key="ID" value="OutputShape.invisibleShape"/>
                 <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="91" height="15" style="//@styles.0"/>
@@ -1391,11 +1616,11 @@
     <properties key="IS_SHAPE_FROM_DSL" value="true"/>
     <properties key="current-height-shape" value="150"/>
     <properties key="current-width-shape" value="200"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="150" x="810" y="200" style="//@styles.0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="200" height="161" x="760" y="250" style="//@styles.0"/>
     <link>
       <businessObjects href="ZoneSelector.composite#//@composables.5"/>
     </link>
-    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.4" relativeWidth="0.5">
+    <anchors xsi:type="pi:BoxRelativeAnchor" visible="true" active="true" incomingConnections="//@connections.2" relativeWidth="0.5">
       <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.5" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" width="6" height="6" x="-3"/>
     </anchors>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
@@ -1411,7 +1636,7 @@
       <properties key="L_MINH" value="150"/>
       <properties key="L_H_STR" value="false"/>
       <properties key="L_VIS" value="true"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.6" foreground="//@colors.5" lineStyle="UNSPECIFIED" width="200" height="150" style="//@styles.3"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.6" foreground="//@colors.5" lineStyle="UNSPECIFIED" width="200" height="161" style="//@styles.3"/>
       <link>
         <businessObjects href="ZoneSelector.composite#//@composables.5"/>
       </link>
@@ -1441,9 +1666,9 @@
         <properties key="L_FLEX" value="true"/>
         <properties key="L_VIS" value="true"/>
         <properties key="IS_SHAPE_FROM_DSL" value="true"/>
-        <properties key="current-height-shape" value="87"/>
+        <properties key="current-height-shape" value="117"/>
         <properties key="current-width-shape" value="189"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="87" y="34" style="//@styles.0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="117" y="34" style="//@styles.0"/>
         <link>
           <businessObjects href="ZoneSelector.composite#//@composables.5/@selectedServices.0"/>
         </link>
@@ -1454,7 +1679,7 @@
           <properties key="L_MINH" value="150"/>
           <properties key="L_H_STR" value="false"/>
           <properties key="L_VIS" value="true"/>
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="87" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="117" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
           <link>
             <businessObjects href="ZoneSelector.composite#//@composables.5/@selectedServices.0"/>
           </link>
@@ -1465,7 +1690,7 @@
             <properties key="L_H_STR" value="false"/>
             <properties key="L_VIS" value="true"/>
             <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="3" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="applyEmergencyBrakes">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="4" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="applyEmergencyBrakes">
               <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
             </graphicsAlgorithm>
             <link>
@@ -1485,7 +1710,7 @@
             <properties key="L_MINH" value="110"/>
             <properties key="L_H_STR" value="false"/>
             <properties key="L_VIS" value="true"/>
-            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="64" x="19" y="17" style="//@styles.0"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="86" x="19" y="23" style="//@styles.0"/>
             <link>
               <businessObjects href="ZoneSelector.composite#//@composables.5/@selectedServices.0"/>
             </link>
@@ -1580,7 +1805,7 @@
               <link>
                 <businessObjects href="ZoneSelector.composite#//@composables.5/@selectedServices.0/@parameters.1"/>
               </link>
-              <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.18"/>
+              <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.17"/>
               <children xsi:type="pi:ContainerShape" visible="true">
                 <properties key="ID" value="OutputShape.invisibleShape"/>
                 <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="91" height="15" style="//@styles.0"/>
@@ -1644,9 +1869,9 @@
     <properties key="L_FLEX" value="true"/>
     <properties key="L_VIS" value="true"/>
     <properties key="IS_SHAPE_FROM_DSL" value="true"/>
-    <properties key="current-height-shape" value="361"/>
+    <properties key="current-height-shape" value="380"/>
     <properties key="current-width-shape" value="189"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="361" x="1041" y="30" style="//@styles.0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="380" x="991" y="50" style="//@styles.0"/>
     <link>
       <businessObjects href="ZoneSelector.composite#//@services.0"/>
     </link>
@@ -1657,7 +1882,7 @@
       <properties key="L_MINH" value="150"/>
       <properties key="L_H_STR" value="false"/>
       <properties key="L_VIS" value="true"/>
-      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="361" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
+      <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="180" height="380" x="9" style="//@styles.0" cornerHeight="20" cornerWidth="20"/>
       <link>
         <businessObjects href="ZoneSelector.composite#//@services.0"/>
       </link>
@@ -1668,7 +1893,7 @@
         <properties key="L_H_STR" value="false"/>
         <properties key="L_VIS" value="true"/>
         <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
-        <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="12" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="zoneSelector_service">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="13" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="zoneSelector_service">
           <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
         </graphicsAlgorithm>
         <link>
@@ -1688,7 +1913,7 @@
         <properties key="L_MINH" value="110"/>
         <properties key="L_H_STR" value="false"/>
         <properties key="L_VIS" value="true"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="265" x="19" y="72" style="//@styles.0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="180" height="279" x="19" y="76" style="//@styles.0"/>
         <link>
           <businessObjects href="ZoneSelector.composite#//@services.0"/>
         </link>
@@ -1918,6 +2143,81 @@
           </children>
         </children>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ID" value="InputShape.containerShape"/>
+          <properties key="L_H_STR" value="true"/>
+          <properties key="L_V_STR" value="true"/>
+          <properties key="L_FLEX" value="true"/>
+          <properties key="L_VIS" value="true"/>
+          <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+          <properties key="L_TYPE" value="TOP"/>
+          <properties key="L_SPACING" value="0"/>
+          <properties key="L_MARGIN" value="0"/>
+          <properties key="current-height-shape" value="15"/>
+          <properties key="current-width-shape" value="121"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="21" x="8" y="71" style="//@styles.0"/>
+          <link>
+            <businessObjects href="ZoneSelector.composite#//@services.0/@parameters.3"/>
+          </link>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.14 //@connections.15 //@connections.16"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="ID" value="InputShape.invisibleShape"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
+            <link>
+              <businessObjects href="ZoneSelector.composite#//@services.0/@parameters.3"/>
+            </link>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="ID" value="InputShape.shape_2"/>
+            <properties key="IS_COMPARFTMENT" value="false"/>
+            <properties key="CAN_MOVE" value="false"/>
+            <properties key="L_MINW" value="15"/>
+            <properties key="L_MINH" value="15"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.4" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+            <link>
+              <businessObjects href="ZoneSelector.composite#//@services.0/@parameters.3"/>
+            </link>
+          </children>
+          <children visible="true">
+            <properties key="ID" value="InputShape.shape_3"/>
+            <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" lineStyle="UNSPECIFIED" style="//@styles.0">
+              <points x="7" y="5"/>
+              <points x="7" y="12"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="ZoneSelector.composite#//@services.0/@parameters.3"/>
+            </link>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="ID" value="InputShape.shape_4"/>
+            <properties key="IS_COMPARFTMENT" value="false"/>
+            <properties key="CAN_MOVE" value="false"/>
+            <properties key="L_MINW" value="2"/>
+            <properties key="L_MINH" value="2"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="2" height="2" x="7" y="3" style="//@styles.0"/>
+            <link>
+              <businessObjects href="ZoneSelector.composite#//@services.0/@parameters.3"/>
+            </link>
+          </children>
+          <children visible="true">
+            <properties key="ID" value="InputShape.shape_5"/>
+            <properties key="L_MINW" value="100"/>
+            <properties key="L_MINH" value="10"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.4" lineStyle="UNSPECIFIED" width="110" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="cruisingSpeed">
+              <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="ZoneSelector.composite#//@services.0/@parameters.3"/>
+            </link>
+          </children>
+        </children>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ID" value="OutputShape.containerShape"/>
           <properties key="L_H_STR" value="true"/>
           <properties key="L_V_STR" value="true"/>
@@ -1929,16 +2229,16 @@
           <properties key="L_MARGIN" value="0"/>
           <properties key="current-height-shape" value="15"/>
           <properties key="current-width-shape" value="91"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="91" height="21" x="8" y="71" style="//@styles.0"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="91" height="21" x="8" y="92" style="//@styles.0"/>
           <link>
-            <businessObjects href="ZoneSelector.composite#//@services.0/@parameters.3"/>
+            <businessObjects href="ZoneSelector.composite#//@services.0/@parameters.4"/>
           </link>
-          <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.14 //@connections.15 //@connections.16 //@connections.17 //@connections.18"/>
+          <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.17 //@connections.18 //@connections.19 //@connections.20 //@connections.21"/>
           <children xsi:type="pi:ContainerShape" visible="true">
             <properties key="ID" value="OutputShape.invisibleShape"/>
             <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="91" height="15" style="//@styles.0"/>
             <link>
-              <businessObjects href="ZoneSelector.composite#//@services.0/@parameters.3"/>
+              <businessObjects href="ZoneSelector.composite#//@services.0/@parameters.4"/>
             </link>
           </children>
           <children xsi:type="pi:ContainerShape" visible="true">
@@ -1951,7 +2251,7 @@
             <properties key="L_VIS" value="true"/>
             <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
             <link>
-              <businessObjects href="ZoneSelector.composite#//@services.0/@parameters.3"/>
+              <businessObjects href="ZoneSelector.composite#//@services.0/@parameters.4"/>
             </link>
           </children>
           <children xsi:type="pi:ContainerShape" visible="true">
@@ -1964,7 +2264,7 @@
             <properties key="L_VIS" value="true"/>
             <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.7" foreground="//@colors.1" lineWidth="1" lineStyle="UNSPECIFIED" width="7" height="8" x="4" y="4" style="//@styles.0"/>
             <link>
-              <businessObjects href="ZoneSelector.composite#//@services.0/@parameters.3"/>
+              <businessObjects href="ZoneSelector.composite#//@services.0/@parameters.4"/>
             </link>
           </children>
           <children visible="true">
@@ -1978,7 +2278,7 @@
               <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
             </graphicsAlgorithm>
             <link>
-              <businessObjects href="ZoneSelector.composite#//@services.0/@parameters.3"/>
+              <businessObjects href="ZoneSelector.composite#//@services.0/@parameters.4"/>
             </link>
           </children>
         </children>
@@ -1994,7 +2294,7 @@
           <properties key="L_MARGIN" value="0"/>
           <properties key="current-height-shape" value="25"/>
           <properties key="current-width-shape" value="145"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="145" height="35" x="8" y="92" style="//@styles.0"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="145" height="35" x="8" y="113" style="//@styles.0"/>
           <link>
             <businessObjects href="ZoneSelector.composite#//@services.0/@serviceReferences.0"/>
           </link>
@@ -2044,7 +2344,7 @@
           <properties key="L_MARGIN" value="0"/>
           <properties key="current-height-shape" value="25"/>
           <properties key="current-width-shape" value="145"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="145" height="35" x="8" y="127" style="//@styles.0"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="145" height="35" x="8" y="148" style="//@styles.0"/>
           <link>
             <businessObjects href="ZoneSelector.composite#//@services.0/@serviceReferences.1"/>
           </link>
@@ -2094,7 +2394,7 @@
           <properties key="L_MARGIN" value="0"/>
           <properties key="current-height-shape" value="25"/>
           <properties key="current-width-shape" value="145"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="145" height="35" x="8" y="162" style="//@styles.0"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="145" height="35" x="8" y="183" style="//@styles.0"/>
           <link>
             <businessObjects href="ZoneSelector.composite#//@services.0/@serviceReferences.2"/>
           </link>
@@ -2144,7 +2444,7 @@
           <properties key="L_MARGIN" value="0"/>
           <properties key="current-height-shape" value="25"/>
           <properties key="current-width-shape" value="145"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="145" height="35" x="8" y="197" style="//@styles.0"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="145" height="35" x="8" y="218" style="//@styles.0"/>
           <link>
             <businessObjects href="ZoneSelector.composite#//@services.0/@serviceReferences.3"/>
           </link>
@@ -2194,7 +2494,7 @@
           <properties key="L_MARGIN" value="0"/>
           <properties key="current-height-shape" value="25"/>
           <properties key="current-width-shape" value="145"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="145" height="35" x="8" y="232" style="//@styles.0"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="145" height="35" x="8" y="253" style="//@styles.0"/>
           <link>
             <businessObjects href="ZoneSelector.composite#//@services.0/@serviceReferences.4"/>
           </link>
@@ -2242,7 +2542,7 @@
   <styles background="//@colors.1" foreground="//@colors.2" lineWidth="1" filled="true" lineVisible="true" transparency="0.0" id="H3" description="" font="//@fonts.1"/>
   <styles background="//@colors.1" foreground="//@colors.2" lineWidth="1" filled="true" lineVisible="true" transparency="0.0" id="H5" description="" font="//@fonts.0"/>
   <styles background="//@colors.1" foreground="//@colors.7" lineWidth="1" lineStyle="DASH" filled="true" lineVisible="true" transparency="0.0" id="DataChannel" description="" font="//@fonts.0"/>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.3/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.1/@anchors.0">
     <properties key="MODEL_TYPE" value="CoordinationConnection"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0"/>
     <link>
@@ -2267,7 +2567,7 @@
       </link>
     </connectionDecorators>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.2/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.4/@anchors.0">
     <properties key="MODEL_TYPE" value="CoordinationConnection"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0"/>
     <link>
@@ -2284,17 +2584,17 @@
       </link>
     </connectionDecorators>
     <connectionDecorators visible="true" active="true" locationRelative="true" location="0.5">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineWidth="1" filled="false" transparency="0.0" width="50" height="20" x="1" style="//@styles.4" verticalAlignment="ALIGNMENT_MIDDLE" value="zone == 4">
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineWidth="1" filled="false" transparency="0.0" width="50" height="20" x="1" style="//@styles.4" verticalAlignment="ALIGNMENT_MIDDLE" value="zone == 2">
         <properties key="SHAPEDSL_TEXT_ID" value="connectionLabel"/>
       </graphicsAlgorithm>
       <link>
         <businessObjects href="ZoneSelector.composite#//@connections.1"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="474" y="169"/>
-    <bendpoints x="259" y="169"/>
+    <bendpoints x="418" y="212"/>
+    <bendpoints x="639" y="212"/>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.1/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.5/@anchors.0">
     <properties key="MODEL_TYPE" value="CoordinationConnection"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0"/>
     <link>
@@ -2311,16 +2611,16 @@
       </link>
     </connectionDecorators>
     <connectionDecorators visible="true" active="true" locationRelative="true" location="0.5">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineWidth="1" filled="false" transparency="0.0" width="50" height="20" x="1" style="//@styles.4" verticalAlignment="ALIGNMENT_MIDDLE" value="zone == 5">
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineWidth="1" filled="false" transparency="0.0" width="50" height="20" x="1" style="//@styles.4" verticalAlignment="ALIGNMENT_MIDDLE" value="zone == 1">
         <properties key="SHAPEDSL_TEXT_ID" value="connectionLabel"/>
       </graphicsAlgorithm>
       <link>
         <businessObjects href="ZoneSelector.composite#//@connections.2"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="39" y="110"/>
+    <bendpoints x="859" y="140"/>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.4/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.2/@anchors.0">
     <properties key="MODEL_TYPE" value="CoordinationConnection"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0"/>
     <link>
@@ -2337,17 +2637,17 @@
       </link>
     </connectionDecorators>
     <connectionDecorators visible="true" active="true" locationRelative="true" location="0.5">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineWidth="1" filled="false" transparency="0.0" width="50" height="20" x="1" style="//@styles.4" verticalAlignment="ALIGNMENT_MIDDLE" value="zone == 2">
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineWidth="1" filled="false" transparency="0.0" width="50" height="20" x="1" style="//@styles.4" verticalAlignment="ALIGNMENT_MIDDLE" value="zone == 4">
         <properties key="SHAPEDSL_TEXT_ID" value="connectionLabel"/>
       </graphicsAlgorithm>
       <link>
         <businessObjects href="ZoneSelector.composite#//@connections.3"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="476" y="170"/>
-    <bendpoints x="689" y="170"/>
+    <bendpoints x="417" y="213"/>
+    <bendpoints x="199" y="213"/>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.5/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.3/@anchors.0">
     <properties key="MODEL_TYPE" value="CoordinationConnection"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0"/>
     <link>
@@ -2364,14 +2664,14 @@
       </link>
     </connectionDecorators>
     <connectionDecorators visible="true" active="true" locationRelative="true" location="0.5">
-      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineWidth="1" filled="false" transparency="0.0" width="50" height="20" x="1" style="//@styles.4" verticalAlignment="ALIGNMENT_MIDDLE" value="zone == 1">
+      <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineWidth="1" filled="false" transparency="0.0" width="50" height="20" x="1" style="//@styles.4" verticalAlignment="ALIGNMENT_MIDDLE" value="zone == 5">
         <properties key="SHAPEDSL_TEXT_ID" value="connectionLabel"/>
       </graphicsAlgorithm>
       <link>
         <businessObjects href="ZoneSelector.composite#//@connections.4"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="909" y="110"/>
+    <bendpoints x="-21" y="140"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.6/@children.0/@children.1/@children.0/@anchors.0" end="//@children.0/@children.0/@children.1/@children.0/@anchors.0">
     <properties key="MODEL_TYPE" value="DataChannel"/>
@@ -2389,10 +2689,8 @@
         <businessObjects href="ZoneSelector.composite#//@dataChannels.0"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="1128" y="86"/>
-    <bendpoints x="513" y="86"/>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.6/@children.0/@children.1/@children.1/@anchors.0" end="//@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.6/@children.0/@children.1/@children.1/@anchors.0" end="//@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@anchors.0">
     <properties key="MODEL_TYPE" value="DataChannel"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" lineStyle="DASH" filled="false" transparency="0.0" style="//@styles.6"/>
     <link>
@@ -2408,7 +2706,7 @@
         <businessObjects href="ZoneSelector.composite#//@dataChannels.1"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="463" y="138"/>
+    <bendpoints x="407" y="162"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.6/@children.0/@children.1/@children.1/@anchors.0" end="//@children.2/@children.0/@children.1/@children.0/@children.1/@children.0/@anchors.0">
     <properties key="MODEL_TYPE" value="DataChannel"/>
@@ -2426,9 +2724,9 @@
         <businessObjects href="ZoneSelector.composite#//@dataChannels.2"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="247" y="138"/>
+    <bendpoints x="187" y="162"/>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.6/@children.0/@children.1/@children.1/@anchors.0" end="//@children.1/@children.0/@children.1/@children.0/@children.1/@children.0/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.6/@children.0/@children.1/@children.1/@anchors.0" end="//@children.3/@children.0/@children.1/@children.0/@children.1/@children.0/@anchors.0">
     <properties key="MODEL_TYPE" value="DataChannel"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" lineStyle="DASH" filled="false" transparency="0.0" style="//@styles.6"/>
     <link>
@@ -2444,7 +2742,7 @@
         <businessObjects href="ZoneSelector.composite#//@dataChannels.3"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="27" y="138"/>
+    <bendpoints x="-33" y="162"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.6/@children.0/@children.1/@children.2/@anchors.0" end="//@children.5/@children.0/@children.1/@children.0/@children.1/@children.0/@anchors.0">
     <properties key="MODEL_TYPE" value="DataChannel"/>
@@ -2462,7 +2760,7 @@
         <businessObjects href="ZoneSelector.composite#//@dataChannels.4"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="897" y="159"/>
+    <bendpoints x="847" y="183"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.6/@children.0/@children.1/@children.2/@anchors.0" end="//@children.4/@children.0/@children.1/@children.0/@children.1/@children.0/@anchors.0">
     <properties key="MODEL_TYPE" value="DataChannel"/>
@@ -2480,9 +2778,9 @@
         <businessObjects href="ZoneSelector.composite#//@dataChannels.5"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="677" y="159"/>
+    <bendpoints x="627" y="183"/>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.6/@children.0/@children.1/@children.2/@anchors.0" end="//@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.6/@children.0/@children.1/@children.2/@anchors.0" end="//@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@anchors.0">
     <properties key="MODEL_TYPE" value="DataChannel"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" lineStyle="DASH" filled="false" transparency="0.0" style="//@styles.6"/>
     <link>
@@ -2498,7 +2796,7 @@
         <businessObjects href="ZoneSelector.composite#//@dataChannels.6"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="463" y="159"/>
+    <bendpoints x="407" y="183"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.6/@children.0/@children.1/@children.2/@anchors.0" end="//@children.2/@children.0/@children.1/@children.0/@children.1/@children.1/@anchors.0">
     <properties key="MODEL_TYPE" value="DataChannel"/>
@@ -2516,9 +2814,9 @@
         <businessObjects href="ZoneSelector.composite#//@dataChannels.7"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="247" y="159"/>
+    <bendpoints x="187" y="183"/>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.6/@children.0/@children.1/@children.2/@anchors.0" end="//@children.1/@children.0/@children.1/@children.0/@children.1/@children.1/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.6/@children.0/@children.1/@children.2/@anchors.0" end="//@children.3/@children.0/@children.1/@children.0/@children.1/@children.1/@anchors.0">
     <properties key="MODEL_TYPE" value="DataChannel"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" lineStyle="DASH" filled="false" transparency="0.0" style="//@styles.6"/>
     <link>
@@ -2534,9 +2832,9 @@
         <businessObjects href="ZoneSelector.composite#//@dataChannels.8"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="27" y="159"/>
+    <bendpoints x="-33" y="183"/>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@anchors.0" end="//@children.6/@children.0/@children.1/@children.3/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.6/@children.0/@children.1/@children.3/@anchors.0" end="//@children.1/@children.0/@children.1/@children.0/@children.1/@children.2/@anchors.0">
     <properties key="MODEL_TYPE" value="DataChannel"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" lineStyle="DASH" filled="false" transparency="0.0" style="//@styles.6"/>
     <link>
@@ -2552,9 +2850,9 @@
         <businessObjects href="ZoneSelector.composite#//@dataChannels.9"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="12" y="180"/>
+    <bendpoints x="407" y="204"/>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.2/@children.0/@children.1/@children.0/@children.1/@children.2/@anchors.0" end="//@children.6/@children.0/@children.1/@children.3/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.6/@children.0/@children.1/@children.3/@anchors.0" end="//@children.2/@children.0/@children.1/@children.0/@children.1/@children.2/@anchors.0">
     <properties key="MODEL_TYPE" value="DataChannel"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" lineStyle="DASH" filled="false" transparency="0.0" style="//@styles.6"/>
     <link>
@@ -2570,9 +2868,9 @@
         <businessObjects href="ZoneSelector.composite#//@dataChannels.10"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="232" y="180"/>
+    <bendpoints x="187" y="204"/>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.3/@children.0/@children.1/@children.0/@children.1/@children.2/@anchors.0" end="//@children.6/@children.0/@children.1/@children.3/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.6/@children.0/@children.1/@children.3/@anchors.0" end="//@children.3/@children.0/@children.1/@children.0/@children.1/@children.2/@anchors.0">
     <properties key="MODEL_TYPE" value="DataChannel"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" lineStyle="DASH" filled="false" transparency="0.0" style="//@styles.6"/>
     <link>
@@ -2588,9 +2886,9 @@
         <businessObjects href="ZoneSelector.composite#//@dataChannels.11"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="448" y="180"/>
+    <bendpoints x="-33" y="204"/>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.4/@children.0/@children.1/@children.0/@children.1/@children.1/@anchors.0" end="//@children.6/@children.0/@children.1/@children.3/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.5/@children.0/@children.1/@children.0/@children.1/@children.1/@anchors.0" end="//@children.6/@children.0/@children.1/@children.4/@anchors.0">
     <properties key="MODEL_TYPE" value="DataChannel"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" lineStyle="DASH" filled="false" transparency="0.0" style="//@styles.6"/>
     <link>
@@ -2606,9 +2904,9 @@
         <businessObjects href="ZoneSelector.composite#//@dataChannels.12"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="662" y="180"/>
+    <bendpoints x="832" y="225"/>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.5/@children.0/@children.1/@children.0/@children.1/@children.1/@anchors.0" end="//@children.6/@children.0/@children.1/@children.3/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.4/@children.0/@children.1/@children.0/@children.1/@children.1/@anchors.0" end="//@children.6/@children.0/@children.1/@children.4/@anchors.0">
     <properties key="MODEL_TYPE" value="DataChannel"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" lineStyle="DASH" filled="false" transparency="0.0" style="//@styles.6"/>
     <link>
@@ -2624,7 +2922,61 @@
         <businessObjects href="ZoneSelector.composite#//@dataChannels.13"/>
       </link>
     </connectionDecorators>
-    <bendpoints x="882" y="180"/>
+    <bendpoints x="612" y="225"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@children.0/@children.1/@children.0/@children.1/@children.3/@anchors.0" end="//@children.6/@children.0/@children.1/@children.4/@anchors.0">
+    <properties key="MODEL_TYPE" value="DataChannel"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" lineStyle="DASH" filled="false" transparency="0.0" style="//@styles.6"/>
+    <link>
+      <businessObjects href="ZoneSelector.composite#//@dataChannels.14"/>
+    </link>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" background="//@colors.2" lineWidth="1" filled="true" transparency="0.0" style="//@styles.6">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+      <link>
+        <businessObjects href="ZoneSelector.composite#//@dataChannels.14"/>
+      </link>
+    </connectionDecorators>
+    <bendpoints x="392" y="225"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.2/@children.0/@children.1/@children.0/@children.1/@children.3/@anchors.0" end="//@children.6/@children.0/@children.1/@children.4/@anchors.0">
+    <properties key="MODEL_TYPE" value="DataChannel"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" lineStyle="DASH" filled="false" transparency="0.0" style="//@styles.6"/>
+    <link>
+      <businessObjects href="ZoneSelector.composite#//@dataChannels.15"/>
+    </link>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" background="//@colors.2" lineWidth="1" filled="true" transparency="0.0" style="//@styles.6">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+      <link>
+        <businessObjects href="ZoneSelector.composite#//@dataChannels.15"/>
+      </link>
+    </connectionDecorators>
+    <bendpoints x="172" y="225"/>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.3/@children.0/@children.1/@children.0/@children.1/@children.3/@anchors.0" end="//@children.6/@children.0/@children.1/@children.4/@anchors.0">
+    <properties key="MODEL_TYPE" value="DataChannel"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" lineStyle="DASH" filled="false" transparency="0.0" style="//@styles.6"/>
+    <link>
+      <businessObjects href="ZoneSelector.composite#//@dataChannels.16"/>
+    </link>
+    <connectionDecorators visible="true" locationRelative="true" location="1.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" background="//@colors.2" lineWidth="1" filled="true" transparency="0.0" style="//@styles.6">
+        <points x="-10" y="5"/>
+        <points/>
+        <points x="-10" y="-5"/>
+      </graphicsAlgorithm>
+      <link>
+        <businessObjects href="ZoneSelector.composite#//@dataChannels.16"/>
+      </link>
+    </connectionDecorators>
+    <bendpoints x="-48" y="225"/>
   </connections>
   <colors red="249" green="238" blue="227"/>
   <colors red="255" green="255" blue="255"/>

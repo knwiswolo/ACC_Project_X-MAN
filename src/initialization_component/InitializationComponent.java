@@ -2,7 +2,7 @@
 		* this is implementation of composite component InitializationComponent  in Java
 		*/
 			
-package composite_components;
+package initialization_component;
 		
 import java.util.*;
 

@@ -25,7 +25,7 @@ public class ZoneCState implements VehicleState {
 			for(float i = (Math.abs((cruisingSpeed - currentSpeed))-1); i >0; i--){
 				try{
 					Thread.sleep(decelerationPressure);
-					currentSpeed = accelerator.decelerate(currentSpeed);
+					currentSpeed = accelerator.decelerate(currentSpeed, cruisingSpeed);
 					// if... switch to ZONE B.
 					if(clearance > safetyDistance && clearance <= 1.5*safetyDistance){
 						ZoneBState zoneBState = new ZoneBState();
@@ -46,7 +46,7 @@ public class ZoneCState implements VehicleState {
 			for(float i = (Math.abs((cruisingSpeed - currentSpeed))-1); i >0; i--){
 				try{
 					Thread.sleep(accelerationPressure);
-					currentSpeed = accelerator.accelerate(currentSpeed);
+					currentSpeed = accelerator.accelerate(currentSpeed, cruisingSpeed);
 					// if... switch to ZONE B.
 					if(clearance > safetyDistance && clearance <= 1.5*safetyDistance){
 						ZoneBState zoneBState = new ZoneBState();

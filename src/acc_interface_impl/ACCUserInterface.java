@@ -6,7 +6,6 @@ import simulators_impl.RadarSimulatorImpl;
 import simulators_impl.SpeedSensorImpl;
 import vehicle_states.VehicleStateFactory;
 import control_system_impl.DistanceControlImpl;
-import control_system_impl.SpeedControlImpl;
 
 // class serving as interface between Driver and System
 public class ACCUserInterface {
@@ -32,7 +31,7 @@ public class ACCUserInterface {
 		DistanceControlImpl distanceControl = new DistanceControlImpl();
 		
 		SpeedSensorImpl speedSensor = new SpeedSensorImpl();
-		SpeedControlImpl speedControl = new SpeedControlImpl();
+		//SpeedControlImpl speedControl = new SpeedControlImpl();
 	
 		Float initialSpeed = speedSensor.generateSpeed();
 		Float initialClearance = radarSimulator.simulateInitialClearance();
@@ -79,7 +78,7 @@ public class ACCUserInterface {
 						cruisingSpeed = scanner.nextFloat();
 							
 						distanceFromSafetyDistance = distanceControl.calculateDistanceFromSafetyDistance(initialClearance, safetyDistance);
-						speedDifference = speedControl.calculateSpeedDifference(initialSpeed, cruisingSpeed);
+						//speedDifference = speedControl.calculateSpeedDifference(initialSpeed, cruisingSpeed);
 						
 						// setting initial speed and distance as currents
 						//speedSensor.setCurrentSpeed(initialSpeed);

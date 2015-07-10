@@ -27,14 +27,18 @@ public class SpeedSensorImpl implements SpeedSensor {
     	return updatedSpeed;
     }
 	
+	// calculate speed difference to trigger acceleration or deceleration
 	public Integer calculateSpeedDifference (Float cruisingSpeed, Float currentSpeed) {
 		Integer speedDifference = null;
 		
 		if (cruisingSpeed < currentSpeed){
-			speedDifference = 0;
+			speedDifference = 0; // decelerate
 		}
 		else if (cruisingSpeed > currentSpeed){
-			speedDifference = 1;
+			speedDifference = 1; // accelerate
+		}else if (cruisingSpeed == currentSpeed)
+		{
+			speedDifference = 2;
 		}
 		return speedDifference;
     }

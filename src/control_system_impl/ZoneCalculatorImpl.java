@@ -20,21 +20,27 @@ public class ZoneCalculatorImpl implements ZoneCalculator {
 	
 	public Integer calculateZone(Float clearance, Float safetyDistance) {
 		if (clearance == null){
+			System.out.println("<invalid>");
 			return 0;
 		}
-		else if(clearance <= safetyDistance/2){
+		else if(clearance <= safetyDistance/1.5){
+			System.out.println("<danger zone>");
 			return DANGER_ZONE;
 		}
 		else if(clearance <= safetyDistance && clearance > safetyDistance/2){
+			System.out.println("<zone A>");
 			return ZONE_A;
 		}
 		else if(clearance > safetyDistance && clearance <= 1.5*safetyDistance){
+			System.out.println("<zone B>");
 			return ZONE_B;
 		}
 		else if(clearance > 1.5*safetyDistance && clearance <= 2*safetyDistance){
+			System.out.println("<zone C>");
 			return ZONE_C;
 		}
 		else if(clearance > 2*safetyDistance){
+			System.out.println("<zone D>");
 			return ZONE_D;
 		}
 		return 0;

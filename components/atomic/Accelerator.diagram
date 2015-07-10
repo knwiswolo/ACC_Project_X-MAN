@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<pi:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" visible="true" gridUnit="10" diagramTypeId="AtomicDesign" name="Accelerator" snapToGrid="true" pictogramLinks="//@link //@children.0/@link //@children.0/@children.0/@link //@children.0/@children.0/@children.0/@link //@children.0/@children.0/@children.0/@children.0/@link //@children.1/@link //@children.1/@children.0/@link //@children.1/@children.0/@children.0/@link //@children.1/@children.0/@children.1/@link //@children.2/@link //@children.2/@children.0/@link //@children.2/@children.0/@children.0/@link //@children.2/@children.0/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.2/@link //@children.1/@children.0/@children.1/@children.0/@children.3/@link //@children.1/@children.0/@children.1/@children.0/@children.4/@link //@children.2/@children.0/@children.1/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@children.2/@link //@children.2/@children.0/@children.1/@children.0/@children.3/@link //@children.2/@children.0/@children.1/@children.0/@children.4/@link //@children.1/@children.0/@children.1/@children.1/@link //@children.1/@children.0/@children.1/@children.1/@children.0/@link //@children.1/@children.0/@children.1/@children.1/@children.1/@link //@children.1/@children.0/@children.1/@children.1/@children.2/@link //@children.1/@children.0/@children.1/@children.1/@children.3/@link //@children.2/@children.0/@children.1/@children.1/@link //@children.2/@children.0/@children.1/@children.1/@children.0/@link //@children.2/@children.0/@children.1/@children.1/@children.1/@link //@children.2/@children.0/@children.1/@children.1/@children.2/@link //@children.2/@children.0/@children.1/@children.1/@children.3/@link" version="0.11.0">
+<pi:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" visible="true" gridUnit="10" diagramTypeId="AtomicDesign" name="Accelerator" snapToGrid="true" pictogramLinks="//@link //@children.0/@link //@children.0/@children.0/@link //@children.0/@children.0/@children.0/@link //@children.0/@children.0/@children.0/@children.0/@link //@children.1/@link //@children.1/@children.0/@link //@children.1/@children.0/@children.0/@link //@children.1/@children.0/@children.1/@link //@children.2/@link //@children.2/@children.0/@link //@children.2/@children.0/@children.0/@link //@children.2/@children.0/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.0/@link //@children.1/@children.0/@children.1/@children.0/@children.1/@link //@children.1/@children.0/@children.1/@children.0/@children.2/@link //@children.1/@children.0/@children.1/@children.0/@children.3/@link //@children.1/@children.0/@children.1/@children.0/@children.4/@link //@children.2/@children.0/@children.1/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.0/@link //@children.2/@children.0/@children.1/@children.0/@children.1/@link //@children.2/@children.0/@children.1/@children.0/@children.2/@link //@children.2/@children.0/@children.1/@children.0/@children.3/@link //@children.2/@children.0/@children.1/@children.0/@children.4/@link //@children.1/@children.0/@children.1/@children.1/@link //@children.1/@children.0/@children.1/@children.1/@children.0/@link //@children.1/@children.0/@children.1/@children.1/@children.1/@link //@children.1/@children.0/@children.1/@children.1/@children.2/@link //@children.1/@children.0/@children.1/@children.1/@children.3/@link //@children.1/@children.0/@children.1/@children.1/@children.4/@link //@children.1/@children.0/@children.1/@children.2/@link //@children.1/@children.0/@children.1/@children.2/@children.0/@link //@children.1/@children.0/@children.1/@children.2/@children.1/@link //@children.1/@children.0/@children.1/@children.2/@children.2/@link //@children.1/@children.0/@children.1/@children.2/@children.3/@link //@children.2/@children.0/@children.1/@children.1/@link //@children.2/@children.0/@children.1/@children.1/@children.0/@link //@children.2/@children.0/@children.1/@children.1/@children.1/@link //@children.2/@children.0/@children.1/@children.1/@children.2/@link //@children.2/@children.0/@children.1/@children.1/@children.3/@link //@children.2/@children.0/@children.1/@children.1/@children.4/@link //@children.2/@children.0/@children.1/@children.2/@link //@children.2/@children.0/@children.1/@children.2/@children.0/@link //@children.2/@children.0/@children.1/@children.2/@children.1/@link //@children.2/@children.0/@children.1/@children.2/@children.2/@link //@children.2/@children.0/@children.1/@children.2/@children.3/@link" version="0.11.0">
   <properties key="URI" value="platform:/resource/ACC_P/components/atomic/Accelerator.atomic#/"/>
   <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.1" foreground="//@colors.0" lineWidth="1" filled="true" lineVisible="true" transparency="0.0" width="1000" height="1000"/>
   <link>
@@ -75,7 +75,7 @@
     <properties key="IS_SHAPE_FROM_DSL" value="true"/>
     <properties key="current-height-shape" value="101"/>
     <properties key="current-width-shape" value="189"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="101" x="220" y="130" style="//@styles.0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="101" x="141" y="29" style="//@styles.0"/>
     <link>
       <businessObjects href="Accelerator.atomic#//@services.0"/>
     </link>
@@ -97,7 +97,7 @@
         <properties key="L_H_STR" value="false"/>
         <properties key="L_VIS" value="true"/>
         <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
-        <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="14" x="10" y="3" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="accelerate">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="3" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="accelerate">
           <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
         </graphicsAlgorithm>
         <link>
@@ -197,6 +197,81 @@
           </children>
         </children>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ID" value="InputShape.containerShape"/>
+          <properties key="L_H_STR" value="true"/>
+          <properties key="L_V_STR" value="true"/>
+          <properties key="L_FLEX" value="true"/>
+          <properties key="L_VIS" value="true"/>
+          <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+          <properties key="L_TYPE" value="TOP"/>
+          <properties key="L_SPACING" value="0"/>
+          <properties key="L_MARGIN" value="0"/>
+          <properties key="current-height-shape" value="15"/>
+          <properties key="current-width-shape" value="121"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="21" x="8" y="29" style="//@styles.0"/>
+          <link>
+            <businessObjects href="Accelerator.atomic#//@services.0/@parameters.1"/>
+          </link>
+          <anchors xsi:type="pi:ChopboxAnchor"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="ID" value="InputShape.invisibleShape"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
+            <link>
+              <businessObjects href="Accelerator.atomic#//@services.0/@parameters.1"/>
+            </link>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="ID" value="InputShape.shape_2"/>
+            <properties key="IS_COMPARFTMENT" value="false"/>
+            <properties key="CAN_MOVE" value="false"/>
+            <properties key="L_MINW" value="15"/>
+            <properties key="L_MINH" value="15"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.3" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+            <link>
+              <businessObjects href="Accelerator.atomic#//@services.0/@parameters.1"/>
+            </link>
+          </children>
+          <children visible="true">
+            <properties key="ID" value="InputShape.shape_3"/>
+            <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" lineStyle="UNSPECIFIED" style="//@styles.0">
+              <points x="7" y="5"/>
+              <points x="7" y="12"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="Accelerator.atomic#//@services.0/@parameters.1"/>
+            </link>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="ID" value="InputShape.shape_4"/>
+            <properties key="IS_COMPARFTMENT" value="false"/>
+            <properties key="CAN_MOVE" value="false"/>
+            <properties key="L_MINW" value="2"/>
+            <properties key="L_MINH" value="2"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="2" height="2" x="7" y="3" style="//@styles.0"/>
+            <link>
+              <businessObjects href="Accelerator.atomic#//@services.0/@parameters.1"/>
+            </link>
+          </children>
+          <children visible="true">
+            <properties key="ID" value="InputShape.shape_5"/>
+            <properties key="L_MINW" value="100"/>
+            <properties key="L_MINH" value="10"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="110" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="cruisingSpeed">
+              <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="Accelerator.atomic#//@services.0/@parameters.1"/>
+            </link>
+          </children>
+        </children>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ID" value="OutputShape.containerShape"/>
           <properties key="L_H_STR" value="true"/>
           <properties key="L_V_STR" value="true"/>
@@ -208,16 +283,16 @@
           <properties key="L_MARGIN" value="0"/>
           <properties key="current-height-shape" value="15"/>
           <properties key="current-width-shape" value="91"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="99" height="21" x="8" y="29" style="//@styles.0"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="99" height="21" x="8" y="50" style="//@styles.0"/>
           <link>
-            <businessObjects href="Accelerator.atomic#//@services.0/@parameters.1"/>
+            <businessObjects href="Accelerator.atomic#//@services.0/@parameters.2"/>
           </link>
           <anchors xsi:type="pi:ChopboxAnchor"/>
           <children xsi:type="pi:ContainerShape" visible="true">
             <properties key="ID" value="OutputShape.invisibleShape"/>
             <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="91" height="15" style="//@styles.0"/>
             <link>
-              <businessObjects href="Accelerator.atomic#//@services.0/@parameters.1"/>
+              <businessObjects href="Accelerator.atomic#//@services.0/@parameters.2"/>
             </link>
           </children>
           <children xsi:type="pi:ContainerShape" visible="true">
@@ -230,7 +305,7 @@
             <properties key="L_VIS" value="true"/>
             <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.4" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
             <link>
-              <businessObjects href="Accelerator.atomic#//@services.0/@parameters.1"/>
+              <businessObjects href="Accelerator.atomic#//@services.0/@parameters.2"/>
             </link>
           </children>
           <children xsi:type="pi:ContainerShape" visible="true">
@@ -243,7 +318,7 @@
             <properties key="L_VIS" value="true"/>
             <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.4" foreground="//@colors.1" lineWidth="1" lineStyle="UNSPECIFIED" width="7" height="8" x="4" y="4" style="//@styles.0"/>
             <link>
-              <businessObjects href="Accelerator.atomic#//@services.0/@parameters.1"/>
+              <businessObjects href="Accelerator.atomic#//@services.0/@parameters.2"/>
             </link>
           </children>
           <children visible="true">
@@ -257,7 +332,7 @@
               <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
             </graphicsAlgorithm>
             <link>
-              <businessObjects href="Accelerator.atomic#//@services.0/@parameters.1"/>
+              <businessObjects href="Accelerator.atomic#//@services.0/@parameters.2"/>
             </link>
           </children>
         </children>
@@ -276,7 +351,7 @@
     <properties key="IS_SHAPE_FROM_DSL" value="true"/>
     <properties key="current-height-shape" value="101"/>
     <properties key="current-width-shape" value="189"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="101" x="431" y="130" style="//@styles.0"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="189" height="101" x="352" y="29" style="//@styles.0"/>
     <link>
       <businessObjects href="Accelerator.atomic#//@services.1"/>
     </link>
@@ -298,7 +373,7 @@
         <properties key="L_H_STR" value="false"/>
         <properties key="L_VIS" value="true"/>
         <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
-        <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="14" x="10" y="3" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="decelerate">
+        <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="150" height="21" x="10" y="3" style="//@styles.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_MIDDLE" value="decelerate">
           <properties key="SHAPEDSL_TEXT_ID" value="serviceNameLabel"/>
         </graphicsAlgorithm>
         <link>
@@ -398,6 +473,81 @@
           </children>
         </children>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="ID" value="InputShape.containerShape"/>
+          <properties key="L_H_STR" value="true"/>
+          <properties key="L_V_STR" value="true"/>
+          <properties key="L_FLEX" value="true"/>
+          <properties key="L_VIS" value="true"/>
+          <properties key="IS_SHAPE_FROM_DSL" value="true"/>
+          <properties key="L_TYPE" value="TOP"/>
+          <properties key="L_SPACING" value="0"/>
+          <properties key="L_MARGIN" value="0"/>
+          <properties key="current-height-shape" value="15"/>
+          <properties key="current-width-shape" value="121"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="121" height="21" x="8" y="29" style="//@styles.0"/>
+          <link>
+            <businessObjects href="Accelerator.atomic#//@services.1/@parameters.1"/>
+          </link>
+          <anchors xsi:type="pi:ChopboxAnchor"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="ID" value="InputShape.invisibleShape"/>
+            <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="121" height="15" style="//@styles.0"/>
+            <link>
+              <businessObjects href="Accelerator.atomic#//@services.1/@parameters.1"/>
+            </link>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="ID" value="InputShape.shape_2"/>
+            <properties key="IS_COMPARFTMENT" value="false"/>
+            <properties key="CAN_MOVE" value="false"/>
+            <properties key="L_MINW" value="15"/>
+            <properties key="L_MINH" value="15"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.3" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
+            <link>
+              <businessObjects href="Accelerator.atomic#//@services.1/@parameters.1"/>
+            </link>
+          </children>
+          <children visible="true">
+            <properties key="ID" value="InputShape.shape_3"/>
+            <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="2" lineStyle="UNSPECIFIED" style="//@styles.0">
+              <points x="7" y="5"/>
+              <points x="7" y="12"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="Accelerator.atomic#//@services.1/@parameters.1"/>
+            </link>
+          </children>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <properties key="ID" value="InputShape.shape_4"/>
+            <properties key="IS_COMPARFTMENT" value="false"/>
+            <properties key="CAN_MOVE" value="false"/>
+            <properties key="L_MINW" value="2"/>
+            <properties key="L_MINH" value="2"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <graphicsAlgorithm xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="2" height="2" x="7" y="3" style="//@styles.0"/>
+            <link>
+              <businessObjects href="Accelerator.atomic#//@services.1/@parameters.1"/>
+            </link>
+          </children>
+          <children visible="true">
+            <properties key="ID" value="InputShape.shape_5"/>
+            <properties key="L_MINW" value="100"/>
+            <properties key="L_MINH" value="10"/>
+            <properties key="L_H_STR" value="false"/>
+            <properties key="L_VIS" value="true"/>
+            <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@colors.3" lineStyle="UNSPECIFIED" width="110" height="21" x="21" y="-5" style="//@styles.0" verticalAlignment="ALIGNMENT_MIDDLE" value="cruisingSpeed">
+              <properties key="SHAPEDSL_TEXT_ID" value="inputParameterLabel"/>
+            </graphicsAlgorithm>
+            <link>
+              <businessObjects href="Accelerator.atomic#//@services.1/@parameters.1"/>
+            </link>
+          </children>
+        </children>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <properties key="ID" value="OutputShape.containerShape"/>
           <properties key="L_H_STR" value="true"/>
           <properties key="L_V_STR" value="true"/>
@@ -409,16 +559,16 @@
           <properties key="L_MARGIN" value="0"/>
           <properties key="current-height-shape" value="15"/>
           <properties key="current-width-shape" value="91"/>
-          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="99" height="21" x="8" y="29" style="//@styles.0"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="99" height="21" x="8" y="50" style="//@styles.0"/>
           <link>
-            <businessObjects href="Accelerator.atomic#//@services.1/@parameters.1"/>
+            <businessObjects href="Accelerator.atomic#//@services.1/@parameters.2"/>
           </link>
           <anchors xsi:type="pi:ChopboxAnchor"/>
           <children xsi:type="pi:ContainerShape" visible="true">
             <properties key="ID" value="OutputShape.invisibleShape"/>
             <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="91" height="15" style="//@styles.0"/>
             <link>
-              <businessObjects href="Accelerator.atomic#//@services.1/@parameters.1"/>
+              <businessObjects href="Accelerator.atomic#//@services.1/@parameters.2"/>
             </link>
           </children>
           <children xsi:type="pi:ContainerShape" visible="true">
@@ -431,7 +581,7 @@
             <properties key="L_VIS" value="true"/>
             <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.4" foreground="//@colors.2" lineStyle="UNSPECIFIED" width="15" height="15" style="//@styles.0"/>
             <link>
-              <businessObjects href="Accelerator.atomic#//@services.1/@parameters.1"/>
+              <businessObjects href="Accelerator.atomic#//@services.1/@parameters.2"/>
             </link>
           </children>
           <children xsi:type="pi:ContainerShape" visible="true">
@@ -444,7 +594,7 @@
             <properties key="L_VIS" value="true"/>
             <graphicsAlgorithm xsi:type="al:Ellipse" background="//@colors.4" foreground="//@colors.1" lineWidth="1" lineStyle="UNSPECIFIED" width="7" height="8" x="4" y="4" style="//@styles.0"/>
             <link>
-              <businessObjects href="Accelerator.atomic#//@services.1/@parameters.1"/>
+              <businessObjects href="Accelerator.atomic#//@services.1/@parameters.2"/>
             </link>
           </children>
           <children visible="true">
@@ -458,7 +608,7 @@
               <properties key="SHAPEDSL_TEXT_ID" value="outputParameterLabel"/>
             </graphicsAlgorithm>
             <link>
-              <businessObjects href="Accelerator.atomic#//@services.1/@parameters.1"/>
+              <businessObjects href="Accelerator.atomic#//@services.1/@parameters.2"/>
             </link>
           </children>
         </children>

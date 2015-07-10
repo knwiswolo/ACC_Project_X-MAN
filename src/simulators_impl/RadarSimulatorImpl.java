@@ -13,10 +13,10 @@ public class RadarSimulatorImpl implements RadarSimulator {
 	
 	public Float simulateInitialClearance() {	
 		Float initialClearance = null;
-		float min = 5;
-		float max = 30;
+		//float min = 5;
+		//float max = 30;
 		
-		initialClearance = min + max; //(float) (Math.random() < 0.5 ? ((1-Math.random()) * (max-min) + min) : (Math.random() * (max-min) + min));
+		initialClearance = (float)50.0; //(float) (Math.random() < 0.5 ? ((1-Math.random()) * (max-min) + min) : (Math.random() * (max-min) + min));
 		return initialClearance;		
 	}
 	

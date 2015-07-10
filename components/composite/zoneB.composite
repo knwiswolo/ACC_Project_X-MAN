@@ -2,53 +2,93 @@
 <xcore:CompositeComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xcore="uk.xman.xcore" name="ZoneB">
   <services name="zoneB_service">
     <parameters xsi:type="xcore:Input" name="speedDifference" dataChannels="//@dataChannels.0" order="0"/>
-    <parameters xsi:type="xcore:Input" name="currentSpeed" dataType="Float" dataChannels="//@dataChannels.1 //@dataChannels.2" order="0"/>
-    <parameters xsi:type="xcore:Output" name="updatedSpeed" dataType="Float" dataChannels="//@dataChannels.3 //@dataChannels.4" order="0"/>
+    <parameters xsi:type="xcore:Input" name="currentSpeed" dataType="Float" dataChannels="//@dataChannels.5 //@dataChannels.6 //@dataChannels.11" order="0"/>
+    <parameters xsi:type="xcore:Input" name="cruisingSpeed" dataType="Float" dataChannels="//@dataChannels.7 //@dataChannels.8" order="0"/>
+    <parameters xsi:type="xcore:Output" name="updatedSpeed" dataType="Float" dataChannels="//@dataChannels.9 //@dataChannels.10 //@dataChannels.12" order="0"/>
     <serviceReferences name="accelerator1.decelerate" service="//@composables.1/@selectedServices.0"/>
     <serviceReferences name="accelerator2.accelerate" service="//@composables.2/@selectedServices.0"/>
+    <serviceReferences name="speedSensor.updateSpeed" service="//@composables.3/@selectedServices.0"/>
   </services>
-  <composables xsi:type="xcore:Selector" name="SEL_1" showedName="SEL_1" connections="//@connections.0 //@connections.1">
+  <composables xsi:type="xcore:Selector" name="SEL_1" showedName="SEL_1" connections="//@connections.0 //@connections.1 //@connections.2 //@connections.3 //@connections.4">
     <input name="speedDifference" dataChannels="//@dataChannels.0" order="0"/>
   </composables>
   <composables xsi:type="xcore:ComponentInstance" name="accelerator1" componentType="Accelerator">
     <selectedServices name="decelerate">
-      <parameters xsi:type="xcore:Input" name="currentSpeed" dataType="Float" dataChannels="//@dataChannels.1" order="0"/>
-      <parameters xsi:type="xcore:Output" name="deceleratedSpeed" dataType="Float" dataChannels="//@dataChannels.4" order="1"/>
+      <parameters xsi:type="xcore:Input" name="currentSpeed" dataType="Float" dataChannels="//@dataChannels.5" order="0"/>
+      <parameters xsi:type="xcore:Input" name="cruisingSpeed" dataType="Float" dataChannels="//@dataChannels.7" order="1"/>
+      <parameters xsi:type="xcore:Output" name="deceleratedSpeed" dataType="Float" dataChannels="//@dataChannels.9" order="2"/>
     </selectedServices>
     <componentReference xsi:type="xcore:AtomicComponent" name="Accelerator">
       <services name="accelerate">
         <parameters xsi:type="xcore:Input" name="currentSpeed" dataType="Float" order="1"/>
-        <parameters xsi:type="xcore:Output" name="acceleratedSpeed" dataType="Float" order="1"/>
+        <parameters xsi:type="xcore:Input" name="cruisingSpeed" dataType="Float" order="0"/>
+        <parameters xsi:type="xcore:Output" name="acceleratedSpeed" dataType="Float" order="0"/>
       </services>
       <services name="decelerate">
         <parameters xsi:type="xcore:Input" name="currentSpeed" dataType="Float" order="1"/>
-        <parameters xsi:type="xcore:Output" name="deceleratedSpeed" dataType="Float" order="1"/>
+        <parameters xsi:type="xcore:Input" name="cruisingSpeed" dataType="Float" order="0"/>
+        <parameters xsi:type="xcore:Output" name="deceleratedSpeed" dataType="Float" order="0"/>
       </services>
       <computationUnit interfaceCode="/*&#xA;&#x9;&#x9;* This is Java interface of the component Accelerator&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public interface Accelerator {public  Float  accelerate (&#xA;    &#x9;&#x9;Float currentSpeed&#xA;    &#x9;&#x9; ); &#xA;public  Float  decelerate (&#xA;    &#x9;&#x9;Float currentSpeed&#xA;    &#x9;&#x9; ); &#xA;}" sourceCode="/*&#xA;&#x9;&#x9;* This is Java implementation of the atomic component ac.getName&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;IF !ac.getComputationUnit.getPackageName.emptypackage ac.getComputationUnit.getPackageName;ENDIF&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public class ac.getNameSUFFIX implements ac.getName {&#xA;/**&#xA; * Constructor of atomic component c.getName&#xA; */&#xA;public c.getNameSUFFIX(IF !dataElements.empty Map&lt;String, Object> vals ENDIF) {&#xA;FOR de : dataElements&#xA;&#x9;this._de.getName = (de.getDataType) vals.get(&quot;de.getName&quot;);&#xA;ENDFOR &#xA;}public  void  s.getName (&#xA;    &#x9;&#x9;FOR i : inputs SEPARATOR ', '&#xA;    &#x9;&#x9;&#x9;i.getDataType.toString i.getName&#xA;    &#x9;&#x9;ENDFOR ) {&#xA;    &#x9;&#x9;&#x9;IF outputs.size() > 1&#xA;    &#x9;&#x9;&#x9;&#x9;Map&lt;String, Object> returnValues = new HashMap&lt;String, Object>();&#xA;    &#x9;&#x9;&#x9;&#x9;FOR o : outputs&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;o.getDataType.toString o.getName = null;&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;returnValues.put(&quot;o.getName&quot;, o.getName);&#xA;    &#x9;&#x9;&#x9;&#x9;ENDFOR&#xA;    &#x9;&#x9;&#x9;ELSEIF outputs.size() == 1&#xA;    &#x9;&#x9;&#x9;&#x9;outputs.get(0).getDataType.toString outputs.get(0).getName = null;&#xA;    &#x9;&#x9;&#x9;ENDIF&#xA;    &#x9;&#x9;&#x9;// TODO: auto-generated code, to be implemented by developers&#xA;    &#x9;&#x9;&#x9;IF outputs.size() == 1&#xA;    &#x9;&#x9;&#x9;&#x9;return outputs.get(0).getName;&#xA;    &#x9;&#x9;&#x9;ELSEIF outputs.size() > 1&#xA;    &#x9;&#x9;&#x9;&#x9;return returnValues;&#xA;    &#x9;&#x9;&#x9;ENDIF&#xA;    &#x9;&#x9;}public  void  s.getName (&#xA;    &#x9;&#x9;FOR i : inputs SEPARATOR ', '&#xA;    &#x9;&#x9;&#x9;i.getDataType.toString i.getName&#xA;    &#x9;&#x9;ENDFOR ) {&#xA;    &#x9;&#x9;&#x9;IF outputs.size() > 1&#xA;    &#x9;&#x9;&#x9;&#x9;Map&lt;String, Object> returnValues = new HashMap&lt;String, Object>();&#xA;    &#x9;&#x9;&#x9;&#x9;FOR o : outputs&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;o.getDataType.toString o.getName = null;&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;returnValues.put(&quot;o.getName&quot;, o.getName);&#xA;    &#x9;&#x9;&#x9;&#x9;ENDFOR&#xA;    &#x9;&#x9;&#x9;ELSEIF outputs.size() == 1&#xA;    &#x9;&#x9;&#x9;&#x9;outputs.get(0).getDataType.toString outputs.get(0).getName = null;&#xA;    &#x9;&#x9;&#x9;ENDIF&#xA;    &#x9;&#x9;&#x9;// TODO: auto-generated code, to be implemented by developers&#xA;    &#x9;&#x9;&#x9;IF outputs.size() == 1&#xA;    &#x9;&#x9;&#x9;&#x9;return outputs.get(0).getName;&#xA;    &#x9;&#x9;&#x9;ELSEIF outputs.size() > 1&#xA;    &#x9;&#x9;&#x9;&#x9;return returnValues;&#xA;    &#x9;&#x9;&#x9;ENDIF&#xA;    &#x9;&#x9;}}"/>
     </componentReference>
   </composables>
   <composables xsi:type="xcore:ComponentInstance" name="accelerator2" componentType="Accelerator">
     <selectedServices name="accelerate">
-      <parameters xsi:type="xcore:Input" name="currentSpeed" dataType="Float" dataChannels="//@dataChannels.2" order="0"/>
-      <parameters xsi:type="xcore:Output" name="acceleratedSpeed" dataType="Float" dataChannels="//@dataChannels.3" order="1"/>
+      <parameters xsi:type="xcore:Input" name="currentSpeed" dataType="Float" dataChannels="//@dataChannels.6" order="0"/>
+      <parameters xsi:type="xcore:Input" name="cruisingSpeed" dataType="Float" dataChannels="//@dataChannels.8" order="1"/>
+      <parameters xsi:type="xcore:Output" name="acceleratedSpeed" dataType="Float" dataChannels="//@dataChannels.10" order="2"/>
     </selectedServices>
     <componentReference xsi:type="xcore:AtomicComponent" name="Accelerator">
       <services name="accelerate">
         <parameters xsi:type="xcore:Input" name="currentSpeed" dataType="Float" order="1"/>
-        <parameters xsi:type="xcore:Output" name="acceleratedSpeed" dataType="Float" order="1"/>
+        <parameters xsi:type="xcore:Input" name="cruisingSpeed" dataType="Float" order="0"/>
+        <parameters xsi:type="xcore:Output" name="acceleratedSpeed" dataType="Float" order="0"/>
       </services>
       <services name="decelerate">
         <parameters xsi:type="xcore:Input" name="currentSpeed" dataType="Float" order="1"/>
-        <parameters xsi:type="xcore:Output" name="deceleratedSpeed" dataType="Float" order="1"/>
+        <parameters xsi:type="xcore:Input" name="cruisingSpeed" dataType="Float" order="0"/>
+        <parameters xsi:type="xcore:Output" name="deceleratedSpeed" dataType="Float" order="0"/>
       </services>
       <computationUnit interfaceCode="/*&#xA;&#x9;&#x9;* This is Java interface of the component Accelerator&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public interface Accelerator {public  Float  accelerate (&#xA;    &#x9;&#x9;Float currentSpeed&#xA;    &#x9;&#x9; ); &#xA;public  Float  decelerate (&#xA;    &#x9;&#x9;Float currentSpeed&#xA;    &#x9;&#x9; ); &#xA;}" sourceCode="/*&#xA;&#x9;&#x9;* This is Java implementation of the atomic component ac.getName&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;IF !ac.getComputationUnit.getPackageName.emptypackage ac.getComputationUnit.getPackageName;ENDIF&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public class ac.getNameSUFFIX implements ac.getName {&#xA;/**&#xA; * Constructor of atomic component c.getName&#xA; */&#xA;public c.getNameSUFFIX(IF !dataElements.empty Map&lt;String, Object> vals ENDIF) {&#xA;FOR de : dataElements&#xA;&#x9;this._de.getName = (de.getDataType) vals.get(&quot;de.getName&quot;);&#xA;ENDFOR &#xA;}public  void  s.getName (&#xA;    &#x9;&#x9;FOR i : inputs SEPARATOR ', '&#xA;    &#x9;&#x9;&#x9;i.getDataType.toString i.getName&#xA;    &#x9;&#x9;ENDFOR ) {&#xA;    &#x9;&#x9;&#x9;IF outputs.size() > 1&#xA;    &#x9;&#x9;&#x9;&#x9;Map&lt;String, Object> returnValues = new HashMap&lt;String, Object>();&#xA;    &#x9;&#x9;&#x9;&#x9;FOR o : outputs&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;o.getDataType.toString o.getName = null;&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;returnValues.put(&quot;o.getName&quot;, o.getName);&#xA;    &#x9;&#x9;&#x9;&#x9;ENDFOR&#xA;    &#x9;&#x9;&#x9;ELSEIF outputs.size() == 1&#xA;    &#x9;&#x9;&#x9;&#x9;outputs.get(0).getDataType.toString outputs.get(0).getName = null;&#xA;    &#x9;&#x9;&#x9;ENDIF&#xA;    &#x9;&#x9;&#x9;// TODO: auto-generated code, to be implemented by developers&#xA;    &#x9;&#x9;&#x9;IF outputs.size() == 1&#xA;    &#x9;&#x9;&#x9;&#x9;return outputs.get(0).getName;&#xA;    &#x9;&#x9;&#x9;ELSEIF outputs.size() > 1&#xA;    &#x9;&#x9;&#x9;&#x9;return returnValues;&#xA;    &#x9;&#x9;&#x9;ENDIF&#xA;    &#x9;&#x9;}public  void  s.getName (&#xA;    &#x9;&#x9;FOR i : inputs SEPARATOR ', '&#xA;    &#x9;&#x9;&#x9;i.getDataType.toString i.getName&#xA;    &#x9;&#x9;ENDFOR ) {&#xA;    &#x9;&#x9;&#x9;IF outputs.size() > 1&#xA;    &#x9;&#x9;&#x9;&#x9;Map&lt;String, Object> returnValues = new HashMap&lt;String, Object>();&#xA;    &#x9;&#x9;&#x9;&#x9;FOR o : outputs&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;o.getDataType.toString o.getName = null;&#xA;    &#x9;&#x9;&#x9;&#x9;&#x9;returnValues.put(&quot;o.getName&quot;, o.getName);&#xA;    &#x9;&#x9;&#x9;&#x9;ENDFOR&#xA;    &#x9;&#x9;&#x9;ELSEIF outputs.size() == 1&#xA;    &#x9;&#x9;&#x9;&#x9;outputs.get(0).getDataType.toString outputs.get(0).getName = null;&#xA;    &#x9;&#x9;&#x9;ENDIF&#xA;    &#x9;&#x9;&#x9;// TODO: auto-generated code, to be implemented by developers&#xA;    &#x9;&#x9;&#x9;IF outputs.size() == 1&#xA;    &#x9;&#x9;&#x9;&#x9;return outputs.get(0).getName;&#xA;    &#x9;&#x9;&#x9;ELSEIF outputs.size() > 1&#xA;    &#x9;&#x9;&#x9;&#x9;return returnValues;&#xA;    &#x9;&#x9;&#x9;ENDIF&#xA;    &#x9;&#x9;}}"/>
     </componentReference>
   </composables>
+  <composables xsi:type="xcore:ComponentInstance" name="speedSensor" componentType="SpeedSensor">
+    <selectedServices name="updateSpeed">
+      <parameters xsi:type="xcore:Input" name="speed" dataType="Float" dataChannels="//@dataChannels.11" order="0"/>
+      <parameters xsi:type="xcore:Output" name="updatedSpeed" dataType="Float" dataChannels="//@dataChannels.12" order="1"/>
+    </selectedServices>
+    <componentReference xsi:type="xcore:AtomicComponent" name="SpeedSensor">
+      <services name="generateSpeed">
+        <parameters xsi:type="xcore:Output" name="initialSpeed" dataType="Float" order="0"/>
+      </services>
+      <services name="calculateSpeedDifference">
+        <parameters xsi:type="xcore:Input" name="cruisingSpeed" dataType="Float" order="0"/>
+        <parameters xsi:type="xcore:Input" name="currentSpeed" dataType="Float" order="0"/>
+        <parameters xsi:type="xcore:Output" name="speedDifference" order="0"/>
+      </services>
+      <services name="updateSpeed">
+        <parameters xsi:type="xcore:Input" name="speed" dataType="Float" order="0"/>
+        <parameters xsi:type="xcore:Output" name="updatedSpeed" dataType="Float" order="0"/>
+      </services>
+      <computationUnit interfaceCode="/*&#xA;&#x9;&#x9;* This is Java interface of the component SpeedSensor&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public interface SpeedSensor {public  Float  generateSpeed (&#xA; ); &#xA;public  Integer  calculateSpeedDifference (&#xA;    &#x9;&#x9;Float cruisingSpeed, &#xA;    &#x9;&#x9;    &#x9;&#x9;Float currentSpeed&#xA;    &#x9;&#x9; ); &#xA;public  Float  updateSpeed (&#xA;    &#x9;&#x9;Float speed&#xA;    &#x9;&#x9; ); &#xA;}" sourceCode="/*&#xA;&#x9;&#x9;* This is Java implementation of the atomic component SpeedSensor&#xA;&#x9;&#x9;*/&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;import java.util.*;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;public class SpeedSensorImpl implements SpeedSensor {&#xA;/**&#xA; * Constructor of atomic component SpeedSensor&#xA; */&#xA;public SpeedSensorImpl() {&#xA;}public  Float  generateSpeed (&#xA; ) {&#xA;    &#x9;&#x9;&#x9;Float initialSpeed = null;&#xA;    &#x9;&#x9;&#x9;// TODO: auto-generated code, to be implemented by developers&#xA;    &#x9;&#x9;&#x9;return initialSpeed;&#xA;    &#x9;&#x9;}}"/>
+    </componentReference>
+  </composables>
+  <connections xsi:type="xcore:CoordinationConnection" condition="speedDifference == 0" source="//@composables.0"/>
+  <connections xsi:type="xcore:CoordinationConnection" condition="speedDifference == 1" source="//@composables.0"/>
   <connections xsi:type="xcore:CoordinationConnection" condition="speedDifference == 0" source="//@composables.0" target="//@composables.1"/>
   <connections xsi:type="xcore:CoordinationConnection" condition="speedDifference == 1" source="//@composables.0" target="//@composables.2"/>
+  <connections xsi:type="xcore:CoordinationConnection" condition="speedDifference == 2" source="//@composables.0" target="//@composables.3"/>
   <dataChannels source="//@services.0/@parameters.0" target="//@composables.0/@input.0"/>
+  <dataChannels/>
+  <dataChannels/>
+  <dataChannels/>
+  <dataChannels/>
   <dataChannels source="//@services.0/@parameters.1" target="//@composables.1/@selectedServices.0/@parameters.0"/>
   <dataChannels source="//@services.0/@parameters.1" target="//@composables.2/@selectedServices.0/@parameters.0"/>
-  <dataChannels source="//@composables.2/@selectedServices.0/@parameters.1" target="//@services.0/@parameters.2"/>
-  <dataChannels source="//@composables.1/@selectedServices.0/@parameters.1" target="//@services.0/@parameters.2"/>
+  <dataChannels source="//@services.0/@parameters.2" target="//@composables.1/@selectedServices.0/@parameters.1"/>
+  <dataChannels source="//@services.0/@parameters.2" target="//@composables.2/@selectedServices.0/@parameters.1"/>
+  <dataChannels source="//@composables.1/@selectedServices.0/@parameters.2" target="//@services.0/@parameters.3"/>
+  <dataChannels source="//@composables.2/@selectedServices.0/@parameters.2" target="//@services.0/@parameters.3"/>
+  <dataChannels source="//@services.0/@parameters.1" target="//@composables.3/@selectedServices.0/@parameters.0"/>
+  <dataChannels source="//@composables.3/@selectedServices.0/@parameters.1" target="//@services.0/@parameters.3"/>
 </xcore:CompositeComponent>
